@@ -36,6 +36,7 @@
   "name":"kinal adventure",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"git_prof","path":"sprites/git_prof/git_prof.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
