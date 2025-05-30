@@ -35,13 +35,14 @@
   },
   "name":"kinal adventure",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"git_prof","path":"sprites/git_prof/git_prof.yy",},},
+    {"id":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},},
+    {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
+    {"id":{"name":"spr_kinalero","path":"sprites/spr_kinalero/spr_kinalero.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
