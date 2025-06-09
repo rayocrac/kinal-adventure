@@ -1,1 +1,8 @@
 rayocaca es la copia de rayovac
+JORGE WAS HERE
+KIWI WAS HERE
+RAYO WAS HERE
+CRIZ WAS HERE
+
+
+WEBONES DEVS WAS HERE
