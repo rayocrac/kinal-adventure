@@ -31,12 +31,23 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"kinal adventure",
   "resources":[
+<<<<<<< Updated upstream
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"git_prof","path":"sprites/git_prof/git_prof.yy",},},
+=======
+    {"id":{"name":"obj_Kinalero","path":"objects/obj_Kinalero/obj_Kinalero.yy",},},
+    {"id":{"name":"obj_maestro","path":"objects/obj_maestro/obj_maestro.yy",},},
+    {"id":{"name":"obj_pruebaEstres","path":"objects/obj_pruebaEstres/obj_pruebaEstres.yy",},},
+    {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
+    {"id":{"name":"prob","path":"sprites/prob/prob.yy",},},
+    {"id":{"name":"spr_kinalero","path":"sprites/spr_kinalero/spr_kinalero.yy",},},
+    {"id":{"name":"spr_maestro","path":"sprites/spr_maestro/spr_maestro.yy",},},
+    {"id":{"name":"spr_pruebaEstres","path":"sprites/spr_pruebaEstres/spr_pruebaEstres.yy",},},
+>>>>>>> Stashed changes
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
