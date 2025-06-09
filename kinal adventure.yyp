@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Conjuntos de casillas","folderPath":"folders/Conjuntos de casillas.yy","name":"Conjuntos de casillas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Curvas de animación","folderPath":"folders/Curvas de animación.yy","name":"Curvas de animación","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -31,13 +31,17 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"kinal adventure",
   "resources":[
     {"id":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},},
+    {"id":{"name":"Obj_kinaleroRight","path":"objects/Obj_kinaleroRight/Obj_kinaleroRight.yy",},},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
-    {"id":{"name":"spr_kinalero","path":"sprites/spr_kinalero/spr_kinalero.yy",},},
+    {"id":{"name":"sprIdleDown","path":"sprites/sprIdleDown/sprIdleDown.yy",},},
+    {"id":{"name":"sprIdleRight","path":"sprites/sprIdleRight/sprIdleRight.yy",},},
+    {"id":{"name":"sprWalkDown","path":"sprites/sprWalkDown/sprWalkDown.yy",},},
+    {"id":{"name":"sprWalkRight","path":"sprites/sprWalkRight/sprWalkRight.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
