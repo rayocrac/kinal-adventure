@@ -7,12 +7,12 @@ if (speed != 0) {
         speed = 0;
         hspeed = 0;
         vspeed = 0;
-        action = "Ilde"; 
+        action = "Idle"; 
     }
 }
 
 if (speed == 0) {
-    action = "Ilde";
+    action = "Idle";
     
     if (keyboard_check(ord("D"))) {
         hspeed = spd;

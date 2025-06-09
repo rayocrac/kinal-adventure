@@ -37,8 +37,10 @@
   "resources":[
     {"id":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},},
     {"id":{"name":"Obj_kinaleroRight","path":"objects/Obj_kinaleroRight/Obj_kinaleroRight.yy",},},
+    {"id":{"name":"obj_Magnolias","path":"objects/obj_Magnolias/obj_Magnolias.yy",},},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"id":{"name":"sprIdleDown","path":"sprites/sprIdleDown/sprIdleDown.yy",},},
+    {"id":{"name":"sprIdleMangolias","path":"sprites/sprIdleMangolias/sprIdleMangolias.yy",},},
     {"id":{"name":"sprIdleRight","path":"sprites/sprIdleRight/sprIdleRight.yy",},},
     {"id":{"name":"sprWalkDown","path":"sprites/sprWalkDown/sprWalkDown.yy",},},
     {"id":{"name":"sprWalkRight","path":"sprites/sprWalkRight/sprWalkRight.yy",},},
