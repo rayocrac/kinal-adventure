@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrKInaleroMovimiento",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrKInaleroMovimiento",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
