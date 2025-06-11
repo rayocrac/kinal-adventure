@@ -1,2 +1,2 @@
-action = "Idle";
-face = "D";
+action = "Quieto";
+face = "Abajo";

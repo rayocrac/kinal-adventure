@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprKinaleroQuietoAbajo",
+    "path":"sprites/sprKinaleroQuietoAbajo/sprKinaleroQuietoAbajo.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

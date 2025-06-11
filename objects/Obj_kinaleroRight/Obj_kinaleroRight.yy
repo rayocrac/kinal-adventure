@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprWalkRight",
-    "path":"sprites/sprWalkRight/sprWalkRight.yy",
+    "name":"sprKinaleroCaminarDerecha",
+    "path":"sprites/sprKinaleroCaminarDerecha/sprKinaleroCaminarDerecha.yy",
   },
   "spriteMaskId":null,
   "visible":true,
