@@ -1,1 +1,1 @@
-scrKInaleroMovimiento();
+scrKinaleroMovimiento();

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scrKInaleroMovimiento",
+  "%Name":"scrKinaleroMovimiento",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scrKInaleroMovimiento",
+  "name":"scrKinaleroMovimiento",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

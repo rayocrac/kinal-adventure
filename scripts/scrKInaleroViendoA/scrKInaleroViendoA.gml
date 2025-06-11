@@ -15,6 +15,6 @@ function scrKInaleroViendoA(dir){
 	} else if (dir >= 247.5 && dir < 292.5) {
 		face = "abajo";
 	} else if (dir >= 292.5 && dir < 337.5) {
-		face = "abajoDerecha;
+		face = "abajoDerecha";
 	}
 }
