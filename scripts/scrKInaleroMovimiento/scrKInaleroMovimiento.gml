@@ -1,4 +1,4 @@
-function scrKinaleroMovimiento(){
+function scrKInaleroMovimiento(){
 	var hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 	var ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
@@ -7,9 +7,9 @@ function scrKinaleroMovimiento(){
 		x += lengthdir_x(1, dir);
 		y += lengthdir_y(1, dir);
 		
-		action = "Caminar";
-		scrKinaleroViendoA(dir);
+		action = "caminar";
+		scrCharLookAt(dir);
 	} else {
-		action = "Quieto";
+		action = "quieto";
 	}
 }
