@@ -1,21 +1,20 @@
-function scrKinaleroViendoA(dir){
-//todos estan en mayusculas para que funcione al encontrar el archivo
-//spride de la accion correspondiente, no cambiarlo
+function scrKInaleroViendoA(dir){
+
 	if (dir < 22.5 || dir >= 337.5) {
-		face = "Derecha";
+		face = "derecha";
 	} else if (dir >= 22.5 && dir < 67.5) {
-		face = "ArribaDerecha";
+		face = "arribaDerecha";
 	} else if (dir >= 67.5 && dir < 112.5) {
-		face = "Arriba";
+		face = "arriba";
 	} else if (dir >= 112.5 && dir < 157.5) {
-		face = "ArribaIzquierda";
+		face = "arribaIzquierda";
 	} else if (dir >= 157.5 && dir < 202.5) {
-		face = "Izquierda";
+		face = "izquierda";
 	} else if (dir >= 202.5 && dir < 247.5) {
-		face = "AbajoIzquierda";
+		face = "abajoDerecha";
 	} else if (dir >= 247.5 && dir < 292.5) {
-		face = "Abajo";
+		face = "abajo";
 	} else if (dir >= 292.5 && dir < 337.5) {
-		face = "AbajoDerecha";
+		face = "abajoDerecha";
 	}
 }
