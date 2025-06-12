@@ -82,6 +82,7 @@
     {"id":{"name":"sprLapiz","path":"sprites/sprLapiz/sprLapiz.yy",},},
     {"id":{"name":"sprLapizBala","path":"sprites/sprLapizBala/sprLapizBala.yy",},},
     {"id":{"name":"sprPizarraMenu","path":"sprites/sprPizarraMenu/sprPizarraMenu.yy",},},
+    {"id":{"name":"sprSello","path":"sprites/sprSello/sprSello.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
