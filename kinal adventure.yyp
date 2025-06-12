@@ -50,6 +50,7 @@
     {"id":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},},
     {"id":{"name":"obj_Magnolias","path":"objects/obj_Magnolias/obj_Magnolias.yy",},},
     {"id":{"name":"objMenu","path":"objects/objMenu/objMenu.yy",},},
+    {"id":{"name":"objOptions","path":"objects/objOptions/objOptions.yy",},},
     {"id":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
     {"id":{"name":"mainOpciones","path":"rooms/mainOpciones/mainOpciones.yy",},},
     {"id":{"name":"mainRpg","path":"rooms/mainRpg/mainRpg.yy",},},
