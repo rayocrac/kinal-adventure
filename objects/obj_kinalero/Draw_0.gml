@@ -2,7 +2,6 @@
 
 draw_sprite_ext(sprite_index, image_index, x, y, 3, 3, image_angle, image_blend, image_alpha);
 
-
 if (arma != noone) {
     // Determina si el arma debe estar reflejada horizontalmente
     // Si el ángulo está entre 90° y 270°, el personaje está mirando hacia la izquierda
