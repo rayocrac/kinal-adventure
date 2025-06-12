@@ -25,3 +25,5 @@ if (keyboard_check_pressed(vk_enter)) {
 
 blink_timer++;
 wiggle_timer += wiggle_speed;
+
+char_offset += 0.1;

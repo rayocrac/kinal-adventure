@@ -11,3 +11,8 @@ blink_speed = 20;
 wiggle_timer = 0;
 wiggle_speed = 3;
 wiggle_amount = 2;
+
+opt_scale = 1;
+wave_height = 5; 
+
+char_offset = 0;
