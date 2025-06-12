@@ -1,0 +1,2 @@
+action = "Quieto";
+face = "Abajo";
