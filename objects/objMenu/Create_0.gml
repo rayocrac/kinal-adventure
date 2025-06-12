@@ -1,8 +1,8 @@
 menu_options = ["Jugar", "Opciones", "Extras", "Salir"];
 selected_option = 0;
-menu_x = room_width/2;
-menu_y = room_height/2;
-option_spacing = 50;
+menu_x = 320;
+menu_y = 160;
+option_spacing = 25;
 menu_font = fntDaydream;
 blink_timer = 0;
 blink_speed = 20;
@@ -11,3 +11,8 @@ blink_speed = 20;
 wiggle_timer = 0;
 wiggle_speed = 3;
 wiggle_amount = 2;
+
+opt_scale = 1;
+wave_height = 5; 
+
+char_offset = 0;
