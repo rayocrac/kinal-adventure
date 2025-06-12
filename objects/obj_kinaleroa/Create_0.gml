@@ -1,2 +1,0 @@
-action = "Idle";
-face = "D";
