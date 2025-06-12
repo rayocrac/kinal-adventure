@@ -31,6 +31,9 @@
     "name":"sprIdleMangolias",
     "path":"sprites/sprIdleMangolias/sprIdleMangolias.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sprIdleMangolias",
+    "path":"sprites/sprIdleMangolias/sprIdleMangolias.yy",
+  },
   "visible":true,
 }
