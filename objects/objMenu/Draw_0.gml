@@ -1,8 +1,3 @@
-draw_set_color(c_black);
-draw_rectangle(0, 0, room_width, room_height, false);
-draw_set_color(make_color_rgb(30, 30, 120));
-draw_rectangle(0, 0, room_width, room_height, true);
-
 // Título del juego
 var title_x = room_width/2;
 var title_y = room_height/4;

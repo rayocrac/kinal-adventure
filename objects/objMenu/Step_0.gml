@@ -14,6 +14,11 @@ if (keyboard_check_pressed(vk_enter)) {
         case 0: // Jugar
             room_goto(mainRpg);
             break;
+		case 1: // Opciones
+		
+		case 3: // Salir
+			game_end();
+			break;
     }
 }
 
