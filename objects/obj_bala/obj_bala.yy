@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Magnolias",
-  "eventList":[],
+  "%Name":"obj_bala",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Magnolias","path":"objects/obj_Magnolias/obj_Magnolias.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_Magnolias",
+  "name":"obj_bala",
   "overriddenProperties":[],
   "parent":{
-    "name":"Personajes",
-    "path":"folders/Objetos/Personajes.yy",
+    "name":"Armas",
+    "path":"folders/Objetos/Kinalero/Armas.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprIdleMangolias",
-    "path":"sprites/sprIdleMangolias/sprIdleMangolias.yy",
+    "name":"sprLapizBala",
+    "path":"sprites/sprLapizBala/sprLapizBala.yy",
   },
   "spriteMaskId":null,
   "visible":true,
