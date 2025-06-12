@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scrKinaleroMovimiento",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Kinalero",
+    "path":"folders/Scripts/Kinalero.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
