@@ -38,8 +38,7 @@
   },
   "name":"kinal adventure",
   "resources":[
-    {"id":{"name":"obj_kinaleroa","path":"objects/obj_kinaleroa/obj_kinaleroa.yy",},},
-    {"id":{"name":"Obj_kinaleroRight","path":"objects/Obj_kinaleroRight/Obj_kinaleroRight.yy",},},
+    {"id":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},},
     {"id":{"name":"obj_Magnolias","path":"objects/obj_Magnolias/obj_Magnolias.yy",},},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"id":{"name":"scrKinaleroMovimiento","path":"scripts/scrKinaleroMovimiento/scrKinaleroMovimiento.yy",},},

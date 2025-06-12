@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_kinaleroRight",
+  "%Name":"obj_kinalero",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_kinaleroRight",
+  "name":"obj_kinalero",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprKinaleroCaminarDerecha",
-    "path":"sprites/sprKinaleroCaminarDerecha/sprKinaleroCaminarDerecha.yy",
+    "name":"sprKinaleroQuietoAbajo",
+    "path":"sprites/sprKinaleroQuietoAbajo/sprKinaleroQuietoAbajo.yy",
   },
   "spriteMaskId":null,
   "visible":true,
