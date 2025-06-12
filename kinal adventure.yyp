@@ -51,6 +51,7 @@
     {"id":{"name":"obj_Magnolias","path":"objects/obj_Magnolias/obj_Magnolias.yy",},},
     {"id":{"name":"objMenu","path":"objects/objMenu/objMenu.yy",},},
     {"id":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
+    {"id":{"name":"mainOpciones","path":"rooms/mainOpciones/mainOpciones.yy",},},
     {"id":{"name":"mainRpg","path":"rooms/mainRpg/mainRpg.yy",},},
     {"id":{"name":"scrKinaleroArmaActual","path":"scripts/scrKinaleroArmaActual/scrKinaleroArmaActual.yy",},},
     {"id":{"name":"scrKinaleroMovimiento","path":"scripts/scrKinaleroMovimiento/scrKinaleroMovimiento.yy",},},
@@ -86,6 +87,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
     {"roomId":{"name":"mainRpg","path":"rooms/mainRpg/mainRpg.yy",},},
+    {"roomId":{"name":"mainOpciones","path":"rooms/mainOpciones/mainOpciones.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
