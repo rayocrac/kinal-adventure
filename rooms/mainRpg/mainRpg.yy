@@ -1,13 +1,13 @@
 {
   "$GMRoom":"v1",
-  "%Name":"menu",
+  "%Name":"mainRpg",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_184BDE9D","path":"rooms/menu/menu.yy",},
-    {"name":"inst_4AA9E975","path":"rooms/menu/menu.yy",},
+    {"name":"inst_184BDE9D","path":"rooms/mainRpg/mainRpg.yy",},
+    {"name":"inst_4AA9E975","path":"rooms/mainRpg/mainRpg.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,7 +20,7 @@
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"sprFloor","path":"sprites/sprFloor/sprFloor.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
-  "name":"menu",
+  "name":"mainRpg",
   "parent":{
     "name":"kinal adventure",
     "path":"kinal adventure.yyp",

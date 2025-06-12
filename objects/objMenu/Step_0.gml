@@ -1,0 +1,21 @@
+if (keyboard_check_pressed(vk_down)) {
+    selected_option = (selected_option + 1) mod array_length(menu_options);
+    audio_play_sound(sndMenuMove, 1, false);
+}
+
+if (keyboard_check_pressed(vk_up)) {
+    selected_option = (selected_option - 1 + array_length(menu_options)) mod array_length(menu_options);
+    audio_play_sound(sndMenuMove, 1, false);
+}
+
+if (keyboard_check_pressed(vk_enter)) {
+    audio_play_sound(sndMenuMove, 1, false);
+    switch(selected_option) {
+        case 0: // Jugar
+            room_goto(mainRpg);
+            break;
+    }
+}
+
+blink_timer++;
+wiggle_timer += wiggle_speed;
