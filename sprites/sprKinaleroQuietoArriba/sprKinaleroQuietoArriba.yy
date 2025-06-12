@@ -12,19 +12,19 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ed90bd04-457f-468e-b212-35507451cf4e","name":"ed90bd04-457f-468e-b212-35507451cf4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"04d334b0-45bc-47b1-803c-18220f92dc42","name":"04d334b0-45bc-47b1-803c-18220f92dc42","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d8fcc434-78d5-46c0-926b-c59862ab1062","name":"d8fcc434-78d5-46c0-926b-c59862ab1062","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8f22dd6d-29ca-4db1-b2f5-fb8dbab8fe2d","name":"8f22dd6d-29ca-4db1-b2f5-fb8dbab8fe2d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b00b265e-8296-4929-9aaa-ec808d888aaa","blendMode":0,"displayName":"default","isLocked":false,"name":"b00b265e-8296-4929-9aaa-ec808d888aaa","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f5218781-9249-4d93-b7c0-672f9e799b91","blendMode":0,"displayName":"default","isLocked":false,"name":"f5218781-9249-4d93-b7c0-672f9e799b91","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprKinaleroQuietoArriba",
   "nineSlice":null,
-  "origin":0,
+  "origin":7,
   "parent":{
     "name":"Quieto",
     "path":"folders/Sprites/Kinalero/Quieto.yy",
@@ -72,17 +72,17 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ed90bd04-457f-468e-b212-35507451cf4e","path":"sprites/sprKinaleroQuietoArriba/sprKinaleroQuietoArriba.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cf6bc1ea-0ca0-47fd-8df1-cdb2d27c3285","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d8fcc434-78d5-46c0-926b-c59862ab1062","path":"sprites/sprKinaleroQuietoArriba/sprKinaleroQuietoArriba.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b8c09cb1-4d80-4559-af14-0109beba440a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04d334b0-45bc-47b1-803c-18220f92dc42","path":"sprites/sprKinaleroQuietoArriba/sprKinaleroQuietoArriba.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9185b610-8d3d-43a5-aa3d-ac441aadf31d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f22dd6d-29ca-4db1-b2f5-fb8dbab8fe2d","path":"sprites/sprKinaleroQuietoArriba/sprKinaleroQuietoArriba.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f9a7b958-91de-4358-89aa-1cc98aa5dab6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":8,
+    "yorigin":16,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

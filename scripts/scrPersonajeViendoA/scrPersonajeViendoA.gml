@@ -1,20 +1,20 @@
-function scrKInaleroViendoA(dir){
+function scrKinaleroViendoA(dir){
 
 	if (dir < 22.5 || dir >= 337.5) {
-		face = "derecha";
+		face = "Derecha";
 	} else if (dir >= 22.5 && dir < 67.5) {
-		face = "arribaDerecha";
+		face = "ArribaDerecha";
 	} else if (dir >= 67.5 && dir < 112.5) {
-		face = "arriba";
+		face = "Arriba";
 	} else if (dir >= 112.5 && dir < 157.5) {
-		face = "arribaIzquierda";
+		face = "ArribaIzquierda";
 	} else if (dir >= 157.5 && dir < 202.5) {
-		face = "izquierda";
+		face = "Izquierda";
 	} else if (dir >= 202.5 && dir < 247.5) {
-		face = "abajoDerecha";
+		face = "AbajoIzquierda";
 	} else if (dir >= 247.5 && dir < 292.5) {
-		face = "abajo";
+		face = "Abajo";
 	} else if (dir >= 292.5 && dir < 337.5) {
-		face = "abajoDerecha";
+		face = "AbajoDerecha";
 	}
 }
