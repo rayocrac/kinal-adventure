@@ -1,3 +1,4 @@
+// Fondo blanco
 draw_set_color(c_white);
 draw_rectangle(0, 0, room_width, room_height, false);
 
@@ -7,84 +8,85 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_text_color(room_width/2, room_height/6, "OPCIONES", c_black, c_black, c_black, c_black, 1);
 
-// Opciones
+// Opciones del menú
 draw_set_font(fntDaydream);
 draw_set_halign(fa_center);
 
-for (var i = 0; i < array_length(options); i++) {
-    var opt = options[i];
-    var y_pos = menu_y + (i * option_spacing);
+for (var i = 0; i < array_length(opciones); i++) {
+    var opcion = opciones[i];
+    var pos_y = posicion_y + (i * espaciado);
     
-    if (i == selected_option) {
+    if (i == opcion_seleccionada) {
         draw_set_color(c_dkgray);
-        var total_chars = string_length(opt.name);
-        var base_x = menu_x - 150;
+        var total_caracteres = string_length(opcion.nombre);
+        var base_x = posicion_x - 150;
         
-        // Dibujar nombre con efecto de onda
-        for (var c = 0; c < total_chars; c++) {
-            var char = string_char_at(opt.name, c + 1);
-            var char_x = base_x + c * 18 * opt_scale;
-            var wave_y = sin(char_offset * 2 + c * 1) * wave_height;
-            draw_text_transformed(char_x, y_pos + wave_y, char, opt_scale, opt_scale, 0);
+        // Efecto de onda para texto seleccionado
+        for (var c = 0; c < total_caracteres; c++) {
+            var caracter = string_char_at(opcion.nombre, c + 1);
+            var char_x = base_x + c * 18 * escala;
+            var onda_y = sin(desplazamiento * 2 + c * 1) * altura_onda;
+            draw_text_transformed(char_x, pos_y + onda_y, caracter, escala, escala, 0);
         }
         
-        // Dibujar control
-        switch (opt.type) {
-            case "slider":
-                var slider_width = 100;
-                var slider_x = menu_x + 50;
-                var fill_width = slider_width * opt.value;
+        // Dibujar controles interactivos
+        switch (opcion.tipo) {
+            case "deslizador":
+                var ancho = 100;
+                var slider_x = posicion_x + 50;
+                var ancho_lleno = ancho * opcion.valor;
                 
                 draw_set_color(c_black);
-                draw_rectangle(slider_x, y_pos - 2, slider_x + slider_width, y_pos + 12, true);
+                draw_rectangle(slider_x, pos_y - 2, slider_x + ancho, pos_y + 12, true);
                 draw_set_color(c_gray);
-                draw_rectangle(slider_x, y_pos - 2, slider_x + fill_width, y_pos + 12, true);
+                draw_rectangle(slider_x, pos_y - 2, slider_x + ancho_lleno, pos_y + 12, true);
                 break;
                 
-            case "toggle":
-                var toggle_x = menu_x + 100;
-                draw_set_color(opt.value ? c_black : c_gray);
-                draw_text(toggle_x, y_pos, opt.value ? "ON" : "OFF");
+            case "interruptor":
+                var toggle_x = posicion_x + 100;
+                draw_set_color(opcion.valor ? c_black : c_gray);
+                draw_text(toggle_x, pos_y, opcion.valor ? "ON" : "OFF");
                 break;
                 
             case "selector":
-                var selector_x = menu_x + 100;
+                var selector_x = posicion_x + 100;
                 draw_set_color(c_black);
-                draw_text(selector_x, y_pos, "< " + opt.options[opt.value] + " >");
+                draw_text(selector_x, pos_y, "< " + opcion.opciones[opcion.valor] + " >");
                 break;
                 
-            case "back":
-                var back_x = menu_x + 100;
+            case "regresar":
+                var back_x = posicion_x + 100;
                 draw_set_color(c_black);
-                draw_text(back_x, y_pos, "<-");
+                draw_text(back_x, pos_y, "<-");
                 break;
         }
     } else {
+        // Opciones no seleccionadas
         draw_set_color(c_black);
-        draw_text(menu_x - 150, y_pos, opt.name);
+        draw_text(posicion_x - 150, pos_y, opcion.nombre);
         
-        // Dibujar valores no seleccionados
-        switch (opt.type) {
-            case "slider":
-                draw_text(menu_x + 100, y_pos, string(round(opt.value * 100)) + "%");
+        // Mostrar valores actuales
+        switch (opcion.tipo) {
+            case "deslizador":
+                draw_text(posicion_x + 100, pos_y, string(round(opcion.valor * 100)) + "%");
                 break;
                 
-            case "toggle":
-                draw_text(menu_x + 100, y_pos, opt.value ? "ON" : "OFF");
+            case "interruptor":
+                draw_text(posicion_x + 100, pos_y, opcion.valor ? "ON" : "OFF");
                 break;
                 
             case "selector":
-                draw_text(menu_x + 100, y_pos, opt.options[opt.value]);
+                draw_text(posicion_x + 100, pos_y, opcion.opciones[opcion.valor]);
                 break;
                 
-            case "back":
-                draw_text(menu_x + 100, y_pos, "<-");
+            case "regresar":
+                draw_text(posicion_x + 100, pos_y, "<-");
                 break;
         }
     }
 }
 
-// Créditos
+// Pie de página (créditos)
 draw_set_font(fntBach);
 draw_set_halign(fa_center);
 draw_text(room_width/2, room_height/1.1, "KINAL ADVENTURE CREW - v1.0");
