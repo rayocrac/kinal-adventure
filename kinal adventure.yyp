@@ -47,6 +47,7 @@
     {"id":{"name":"fntBach","path":"fonts/fntBach/fntBach.yy",},},
     {"id":{"name":"fntDaydream","path":"fonts/fntDaydream/fntDaydream.yy",},},
     {"id":{"name":"obj_bala","path":"objects/obj_bala/obj_bala.yy",},},
+    {"id":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},},
     {"id":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},},
     {"id":{"name":"obj_Magnolias","path":"objects/obj_Magnolias/obj_Magnolias.yy",},},
     {"id":{"name":"objMenu","path":"objects/objMenu/objMenu.yy",},},
