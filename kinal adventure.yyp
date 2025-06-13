@@ -49,7 +49,7 @@
     {"id":{"name":"obj_bala","path":"objects/obj_bala/obj_bala.yy",},},
     {"id":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},},
     {"id":{"name":"obj_Magnolias","path":"objects/obj_Magnolias/obj_Magnolias.yy",},},
-    {"id":{"name":"objMenu","path":"objects/objMenu/objMenu.yy",},},
+    {"id":{"name":"obj_Menu","path":"objects/obj_Menu/obj_Menu.yy",},},
     {"id":{"name":"objOptions","path":"objects/objOptions/objOptions.yy",},},
     {"id":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
     {"id":{"name":"mainOpciones","path":"rooms/mainOpciones/mainOpciones.yy",},},
