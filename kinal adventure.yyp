@@ -55,6 +55,7 @@
     {"id":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
     {"id":{"name":"mainOpciones","path":"rooms/mainOpciones/mainOpciones.yy",},},
     {"id":{"name":"mainRpg","path":"rooms/mainRpg/mainRpg.yy",},},
+    {"id":{"name":"tercerPiso","path":"rooms/tercerPiso/tercerPiso.yy",},},
     {"id":{"name":"scrKinaleroArmaActual","path":"scripts/scrKinaleroArmaActual/scrKinaleroArmaActual.yy",},},
     {"id":{"name":"scrKinaleroMovimiento","path":"scripts/scrKinaleroMovimiento/scrKinaleroMovimiento.yy",},},
     {"id":{"name":"scrPersonajeMovimientoA","path":"scripts/scrPersonajeMovimientoA/scrPersonajeMovimientoA.yy",},},
@@ -92,6 +93,7 @@
     {"roomId":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
     {"roomId":{"name":"mainRpg","path":"rooms/mainRpg/mainRpg.yy",},},
     {"roomId":{"name":"mainOpciones","path":"rooms/mainOpciones/mainOpciones.yy",},},
+    {"roomId":{"name":"tercerPiso","path":"rooms/tercerPiso/tercerPiso.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
