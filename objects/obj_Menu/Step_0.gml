@@ -18,6 +18,9 @@ if (keyboard_check_pressed(vk_enter)) {
         case 1: // Menú Opciones
             room_goto(mainOpciones);
             break;
+		case 2: //Extras
+			room_goto(mainGaleria)
+			break;
         case 3: // Salir
             game_end();
             break;
