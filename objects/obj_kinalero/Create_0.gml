@@ -1,9 +1,9 @@
-action = "Quieto";
-face = "Abajo";
+accion = "Quieto";
+fotograma = "Abajo";
 
 //le dal el arma al kinalero
 arma = {
 	sprite: sprLapiz,
 	
-	angle: 0
+	angulo: 0
 };

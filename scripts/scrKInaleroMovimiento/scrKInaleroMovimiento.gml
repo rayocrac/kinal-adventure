@@ -7,9 +7,9 @@ function scrKinaleroMovimiento(){
 		x += lengthdir_x(1, dir);
 		y += lengthdir_y(1, dir);
 		
-		action = "Caminar";
+		accion = "Caminar";
 		scrKinaleroViendoA(dir);
 	} else {
-		action = "Quieto";
+		accion = "Quieto";
 	}
 }

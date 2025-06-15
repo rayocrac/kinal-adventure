@@ -1,20 +1,20 @@
 function scrKinaleroViendoA(dir){
 
 	if (dir < 22.5 || dir >= 337.5) {
-		face = "Derecha";
+		fotograma = "Derecha";
 	} else if (dir >= 22.5 && dir < 67.5) {
-		face = "ArribaDerecha";
+		fotograma = "ArribaDerecha";
 	} else if (dir >= 67.5 && dir < 112.5) {
-		face = "Arriba";
+		fotograma = "Arriba";
 	} else if (dir >= 112.5 && dir < 157.5) {
-		face = "ArribaIzquierda";
+		fotograma = "ArribaIzquierda";
 	} else if (dir >= 157.5 && dir < 202.5) {
-		face = "Izquierda";
+		fotograma = "Izquierda";
 	} else if (dir >= 202.5 && dir < 247.5) {
-		face = "AbajoIzquierda";
+		fotograma = "AbajoIzquierda";
 	} else if (dir >= 247.5 && dir < 292.5) {
-		face = "Abajo";
+		fotograma = "Abajo";
 	} else if (dir >= 292.5 && dir < 337.5) {
-		face = "AbajoDerecha";
+		fotograma = "AbajoDerecha";
 	}
 }

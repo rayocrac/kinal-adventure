@@ -5,10 +5,10 @@ draw_sprite_ext(sprite_index, image_index, x, y, 3, 3, image_angle, image_blend,
 if (arma != noone) {
     // Determina si el arma debe estar reflejada horizontalmente
     // Si el ángulo está entre 90° y 270°, el personaje está mirando hacia la izquierda
-    var armaTamano = (arma.angle >= 90 && arma.angle < 270) ? -1 : 1;
+    var armaTamano = (arma.angulo >= 90 && arma.angulo < 270) ? -1 : 1;
     
     // Ajusta el ángulo de dibujo del arma si está reflejada, sumando 180°
-    var armaAngulo = arma.angle + ((arma.angle >= 90 && arma.angle < 270) ? 190 : 0);
+    var armaAngulo = arma.angulo + ((arma.angulo >= 90 && arma.angulo < 270) ? 190 : 0);
     
     // Dibuja el sprite del arma con las transformaciones necesarias:
     // - sprite del arma
