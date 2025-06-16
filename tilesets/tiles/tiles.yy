@@ -17,8 +17,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"kinal adventure",
-    "path":"kinal adventure.yyp",
+    "name":"nivel uno",
+    "path":"folders/Niveles/nivel uno.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

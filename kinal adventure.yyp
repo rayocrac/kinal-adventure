@@ -88,7 +88,6 @@
     {"id":{"name":"sprLapiz","path":"sprites/sprLapiz/sprLapiz.yy",},},
     {"id":{"name":"sprLapizBala","path":"sprites/sprLapizBala/sprLapizBala.yy",},},
     {"id":{"name":"sprPared","path":"sprites/sprPared/sprPared.yy",},},
-    {"id":{"name":"sprPiso","path":"sprites/sprPiso/sprPiso.yy",},},
     {"id":{"name":"sprPisoPrincipal","path":"sprites/sprPisoPrincipal/sprPisoPrincipal.yy",},},
     {"id":{"name":"sprPizarraMenu","path":"sprites/sprPizarraMenu/sprPizarraMenu.yy",},},
     {"id":{"name":"sprSello","path":"sprites/sprSello/sprSello.yy",},},
