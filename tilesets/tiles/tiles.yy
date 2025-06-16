@@ -1,0 +1,43 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tiles",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"pared","closed_edge":true,"name":"pared","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        500,486,517,516,501,466,790,791,807,806,774,758,759,775,2,54,18,3,35,64,80,65,81,66,82,67,83,96,112,
+        97,113,98,114,99,115,100,134,102,117,103,119,135,128,120,1,16,57,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"tiles",
+  "out_columns":29,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"kinal adventure",
+    "path":"kinal adventure.yyp",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"sprPared",
+    "path":"sprites/sprPared/sprPared.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":848,
+}

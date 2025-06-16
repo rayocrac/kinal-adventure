@@ -22,8 +22,8 @@
   ],
   "name":"mainRpg",
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"kinal adventure",
+    "path":"kinal adventure.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{
