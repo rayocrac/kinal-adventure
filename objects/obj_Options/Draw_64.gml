@@ -1,15 +1,16 @@
 // Fondo blanco
 draw_set_color(c_white);
-draw_rectangle(0, 0, room_width, room_height, false);
+draw_rectangle(fa_left, fa_left, display_get_width(), display_get_height(), false);
+
 
 // Título
-draw_set_font(fntDaydream);
+draw_set_font(fntUno);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_text_color(room_width/2, room_height/6, "OPCIONES", c_black, c_black, c_black, c_black, 1);
 
 // Opciones del menú
-draw_set_font(fntDaydream);
+draw_set_font(fntUno);
 draw_set_halign(fa_center);
 
 for (var i = 0; i < array_length(opciones); i++) {
@@ -38,7 +39,7 @@ for (var i = 0; i < array_length(opciones); i++) {
                 
                 draw_set_color(c_black);
                 draw_rectangle(slider_x, pos_y - 2, slider_x + ancho, pos_y + 12, true);
-                draw_set_color(c_gray);
+                draw_set_color(c_blue);
                 draw_rectangle(slider_x, pos_y - 2, slider_x + ancho_lleno, pos_y + 12, true);
                 break;
                 
@@ -87,6 +88,6 @@ for (var i = 0; i < array_length(opciones); i++) {
 }
 
 // Pie de página (créditos)
-draw_set_font(fntBach);
+draw_set_font(fntDos);
 draw_set_halign(fa_center);
 draw_text(room_width/2, room_height/1.1, "KINAL ADVENTURE CREW - v1.0");

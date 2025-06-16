@@ -1,3 +1,6 @@
+if (global.juegoPausado == true) {
+    exit; // No hace nada si está pausado
+}
 // Dibuja el sprite del personaje tal como está definido en su sprite_index y image_index
 
 draw_sprite_ext(sprite_index, image_index, x, y, 3, 3, image_angle, image_blend, image_alpha);

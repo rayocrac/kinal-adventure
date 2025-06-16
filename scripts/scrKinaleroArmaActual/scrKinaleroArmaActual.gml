@@ -1,7 +1,7 @@
 function scrKinaleroArmaActual() {
     // Si no hay arma equipada, salir de la función
     if (arma == noone) { exit; }
-    
+
     // Calcular el ángulo entre el jugador (ligeramente desplazado hacia arriba) y el mouse
     // Esto sirve para que el arma apunte hacia donde está el cursor
     arma.angulo = point_direction(x, y -15, mouse_x, mouse_y);
@@ -14,9 +14,9 @@ function scrKinaleroArmaActual() {
         
         // Crear la bala (obj_bala) en la capa "Instances" en la posición calculada
         var bala = instance_create_layer(bx, by, "Instances", obj_bala);
-        
-        // Asignar velocidad y dirección a la bala
-        bala.speed = 1;
+
+		// Asignar velocidad y dirección a la bala
+        bala.speed = 5;
         bala.direction = arma.angulo;
     }
 }

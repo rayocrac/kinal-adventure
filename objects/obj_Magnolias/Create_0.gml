@@ -1,0 +1,1 @@
+global.juegoPausado = false;
