@@ -41,10 +41,7 @@ if (ajuste != 0) {
 if (keyboard_check_pressed(vk_enter)) {
     audio_play_sound(sndMovimiento, global.volumen, false);
     if (opciones[opcion_seleccionada].tipo == "regresar") {
-		instance_activate_all()
-		instance_deactivate_object(obj_Options);
-		global.juegoPausado = false;
-        instance_destroy();
+		room_goto(mainMenu)
     }
 }
 

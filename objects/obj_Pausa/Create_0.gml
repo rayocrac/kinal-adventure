@@ -1,0 +1,2 @@
+pausa = false;
+pausaCapa = noone;

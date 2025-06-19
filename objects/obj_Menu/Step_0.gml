@@ -16,10 +16,7 @@ if (keyboard_check_pressed(vk_enter)) {
             room_goto(tercerPiso);
             break;
         case 1: // Menú Opciones
-    if (!instance_exists(obj_Options)) {
-        instance_create_layer(0, 0, "Instances", obj_Options);
-		instance_deactivate_object(obj_Menu)
-    }
+		room_goto(mainOpciones)
             break;
         case 3: // Salir
             game_end();
