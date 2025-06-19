@@ -23,7 +23,7 @@
   ],
   "name":"sprLapiz",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Armas",
     "path":"folders/Sprites/Armas.yy",
@@ -78,7 +78,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":16,
+    "yorigin":15,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
