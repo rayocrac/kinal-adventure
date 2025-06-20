@@ -10,7 +10,7 @@ function scrKinaleroArmaActual() {
     if (mouse_check_button_pressed(mb_left)) {
         // Calcular la posición inicial de la bala (13 píxeles desde el jugador en dirección al ángulo del arma)
         var bx = x + lengthdir_x(13, arma.angulo);
-        var by = y + lengthdir_y(13, arma.angulo);
+        var by = y - 15 + lengthdir_y(13, arma.angulo);
         
         // Crear la bala (obj_bala) en la capa "Instances" en la posición calculada
         var bala = instance_create_layer(bx, by, "Instances", obj_bala);
