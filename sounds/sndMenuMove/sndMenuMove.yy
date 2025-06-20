@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":4.25,
   "name":"sndMenuMove",
   "parent":{
     "name":"Sonidos",

@@ -1,15 +1,15 @@
-if (global.juegoPausado) {
-    // Si no se ha guardado la velocidad, la guardamos
-    if (velocidadBalaGuardada == -1) {
-        velocidadBalaGuardada = speed;
-        speed = 0;
-    }
-	// Salimos del Step para congelar la bala
-    exit;
+// Evento Step de obj_bala
+
+// Calcula la nueva posición usando la velocidad y dirección actual
+var xDestino = x + lengthdir_x(speed, direction);
+var yDestino = y + lengthdir_y(speed, direction);
+
+// Verifica colisión de la bala con tiles usando el script reutilizable
+if (!scrColisionTiles(xDestino, yDestino, "tileColision")) {
+    // Si NO hay colisión, mueve la bala
+    x = xDestino;
+    y = yDestino;
 } else {
-    // Si estaba pausada y ya se guardó velocidad, la restauramos
-    if (velocidadBalaGuardada != -1) {
-        speed = velocidadBalaGuardada;
-        velocidadBalaGuardada = -1;
-    }
+    // Si hay colisión, destruye la bala
+    instance_destroy();
 }
