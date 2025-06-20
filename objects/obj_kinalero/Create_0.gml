@@ -8,3 +8,7 @@ arma = {
 	
 	angulo: 0
 };
+
+hp = 4;
+totalHp = hp;
+dano = 1;
