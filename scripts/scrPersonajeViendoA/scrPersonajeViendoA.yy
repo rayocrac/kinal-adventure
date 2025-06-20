@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrPersonajeViendoA",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrPersonajeViendoA",
+  "parent":{
+    "name":"Personajes",
+    "path":"folders/Scripts/Personajes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

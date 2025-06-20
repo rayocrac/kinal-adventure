@@ -1,18 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Cursor",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_enemigo_uno",
+  "eventList":[],
   "managed":true,
-  "name":"obj_Cursor",
+  "name":"obj_enemigo_uno",
   "overriddenProperties":[],
   "parent":{
-    "name":"controladores",
-    "path":"folders/Objetos/controladores.yy",
+    "name":"Enemigos",
+    "path":"folders/Objetos/Enemigos.yy",
   },
-  "parentObjectId":null,
-  "persistent":true,
+  "parentObjectId":{
+    "name":"obj_enemigo_parent",
+    "path":"objects/obj_enemigo_parent/obj_enemigo_parent.yy",
+  },
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,7 +30,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"sprEnemigoUno",
+    "path":"sprites/sprEnemigoUno/sprEnemigoUno.yy",
+  },
+  "spriteMaskId":{
+    "name":"sprEnemigoUno",
+    "path":"sprites/sprEnemigoUno/sprEnemigoUno.yy",
+  },
   "visible":true,
 }
