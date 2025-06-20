@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scrPersonajeViendoA",
+  "%Name":"scrKinaleroViendoA",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scrPersonajeViendoA",
+  "name":"scrKinaleroViendoA",
   "parent":{
-    "name":"Personajes",
-    "path":"folders/Scripts/Personajes.yy",
+    "name":"Kinalero",
+    "path":"folders/Scripts/Kinalero.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

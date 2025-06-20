@@ -31,14 +31,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"sprKinaleroQuietoAbajo",
     "path":"sprites/sprKinaleroQuietoAbajo/sprKinaleroQuietoAbajo.yy",
   },
-  "spriteMaskId":{
-    "name":"colision",
-    "path":"sprites/colision/colision.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
