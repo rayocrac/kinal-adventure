@@ -1,6 +1,6 @@
-objetivoX  = x ;
-objetivoY = y -15;
-velocidad = 1;
+objetivoX  = x;
+objetivoY = y;
+
 //esta alarma correra cada 30 frames
 alarm[0] = 30;
 

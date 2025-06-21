@@ -1,7 +1,7 @@
 
 // Dibuja el sprite del personaje tal como está definido en su sprite_index y image_index
 
-draw_sprite_ext(sprite_index, image_index, x, y, 3, 3, image_angle, image_blend, image_alpha);
+
 
 if (arma != noone) {
     // Determina si el arma debe estar reflejada horizontalmente

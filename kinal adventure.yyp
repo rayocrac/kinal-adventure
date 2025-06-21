@@ -20,7 +20,7 @@
     {"$GMFolder":"","%Name":"Notas","folderPath":"folders/Notas.yy","name":"Notas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"controladores","folderPath":"folders/Objetos/controladores.yy","name":"controladores","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Enemigos","folderPath":"folders/Objetos/Enemigos.yy","name":"Enemigos","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"enemigos","folderPath":"folders/Objetos/enemigos.yy","name":"enemigos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Kinalero","folderPath":"folders/Objetos/Kinalero.yy","name":"Kinalero","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Armas","folderPath":"folders/Objetos/Kinalero/Armas.yy","name":"Armas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Personajes","folderPath":"folders/Objetos/Personajes.yy","name":"Personajes","resourceType":"GMFolder","resourceVersion":"2.0",},

@@ -6,8 +6,8 @@
   "name":"obj_enemigo_uno",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemigos",
-    "path":"folders/Objetos/Enemigos.yy",
+    "name":"enemigos",
+    "path":"folders/Objetos/enemigos.yy",
   },
   "parentObjectId":{
     "name":"obj_enemigo_parent",

@@ -1,7 +1,7 @@
 //este if es durante el knockback
 if (alarm[1] > 0) {
-    objetivoX = x - empujeX;
-    objetivoY = y - empujeY;
+    objetivoX = x + empujeX;
+    objetivoY = y + empujeY;
 
     //Esto simula la friccion
     empujeX *= 0.8;
