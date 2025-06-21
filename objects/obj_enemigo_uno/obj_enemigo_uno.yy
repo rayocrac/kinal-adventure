@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprEnemigoUno",
+    "path":"sprites/sprEnemigoUno/sprEnemigoUno.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

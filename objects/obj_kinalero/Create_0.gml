@@ -1,3 +1,6 @@
+hp = 4;
+totalHp = hp;
+dano = 1;
 
 accion = "Quieto";
 fotograma = "Abajo";
