@@ -6,7 +6,7 @@ if (mostrar == true) {
 	var vistaY = camera_get_view_y(view_camera[0]);
 
 	// Dibujar el rectángulo semitransparente que cubre la pantalla
-	draw_self();
+	draw_self
 	draw_set_alpha(0.5);
 	draw_rectangle(vistaX, vistaY, vistaX + vistaAncho, vistaY + vistaAlto, false);
 	draw_set_alpha(1);
@@ -19,5 +19,5 @@ if (mostrar == true) {
 	draw_text(vistaX + vistaAncho / 2, vistaY + vistaAlto / 2, "Juego Pausado");
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
-	}
+	
 	
