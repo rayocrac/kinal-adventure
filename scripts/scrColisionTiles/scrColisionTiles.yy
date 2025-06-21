@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrColisionTiles",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrColisionTiles",
+  "parent":{
+    "name":"Personajes",
+    "path":"folders/Scripts/Personajes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

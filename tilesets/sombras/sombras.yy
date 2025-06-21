@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"sombras",
-  "out_columns":23,
+  "out_columns":13,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":540,
+  "tile_count":168,
 }
