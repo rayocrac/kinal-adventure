@@ -12,4 +12,3 @@ var horizontal  = clamp(objetivoX - x, -1, 1);
 var vertical = clamp(objetivoY - y, -1, 1);
 
 move_and_collide(horizontal * velocidad, vertical * velocidad, [tilemap, obj_enemigo_parent]);
-
