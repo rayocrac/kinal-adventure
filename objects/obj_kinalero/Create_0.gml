@@ -1,4 +1,4 @@
-
+global.juegoPausado = false;
 
 accion = "Quieto";
 fotograma = "Abajo";
