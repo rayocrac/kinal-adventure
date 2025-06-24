@@ -257,6 +257,7 @@
     {"id":{"name":"sprPizarraMenu","path":"sprites/sprPizarraMenu/sprPizarraMenu.yy",},},
     {"id":{"name":"sprSello","path":"sprites/sprSello/sprSello.yy",},},
     {"id":{"name":"sprSiguienteNivel","path":"sprites/sprSiguienteNivel/sprSiguienteNivel.yy",},},
+    {"id":{"name":"sprVida","path":"sprites/sprVida/sprVida.yy",},},
     {"id":{"name":"sombras","path":"tilesets/sombras/sombras.yy",},},
     {"id":{"name":"tiles","path":"tilesets/tiles/tiles.yy",},},
   ],
