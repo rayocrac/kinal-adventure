@@ -15,11 +15,13 @@
     {"name":"inst_3E332F9D","path":"rooms/tercerPiso/tercerPiso.yy",},
     {"name":"inst_23A25FD6","path":"rooms/tercerPiso/tercerPiso.yy",},
     {"name":"inst_3DBA7EE3","path":"rooms/tercerPiso/tercerPiso.yy",},
+    {"name":"inst_216E406D","path":"rooms/tercerPiso/tercerPiso.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Balas","depth":-700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_71714B93","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_71714B93","objectId":{"name":"obj_Cursor","path":"objects/obj_Cursor/obj_Cursor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":416.0,},
+        {"$GMRInstance":"v2","%Name":"inst_216E406D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_216E406D","objectId":{"name":"obj_Texto","path":"objects/obj_Texto/obj_Texto.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":960.0,},
       ],"layers":[],"name":"Balas","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_2","depth":-600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_D8C7A21","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D8C7A21","objectId":{"name":"obj_Nivel","path":"objects/obj_Nivel/obj_Nivel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.34560776,"scaleX":2.0,"scaleY":5.0,"x":336.0,"y":785.0,},

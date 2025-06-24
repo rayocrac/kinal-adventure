@@ -1,5 +1,5 @@
 
-texto = "Hola [wave]jugador[/wave], este juego aún no está [rainbow]terminado[/rainbow]. Esto es una prueba de todas las [wiggle]mecánicas[/wiggle] que contiene el juego.";
+texto = "Hola [wave]jugador[/wave], este juego aun no esta [rainbow]terminado[/rainbow]. Esto es una prueba de todas las [wiggle]mecanicas[/wiggle] que contiene el juego.";
 
 
 buffer = scribble(texto).wrap(600, 120);

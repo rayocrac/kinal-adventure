@@ -75,7 +75,6 @@
     {"id":{"name":"scribble_fallback_font","path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},},
     {"id":{"name":"obj_bala","path":"objects/obj_bala/obj_bala.yy",},},
     {"id":{"name":"obj_Cursor","path":"objects/obj_Cursor/obj_Cursor.yy",},},
-    {"id":{"name":"obj_dialogo_provisional","path":"objects/obj_dialogo_provisional/obj_dialogo_provisional.yy",},},
     {"id":{"name":"obj_enemigo_parent","path":"objects/obj_enemigo_parent/obj_enemigo_parent.yy",},},
     {"id":{"name":"obj_enemigo_uno","path":"objects/obj_enemigo_uno/obj_enemigo_uno.yy",},},
     {"id":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},},

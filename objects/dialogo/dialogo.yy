@@ -1,14 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dialogo_provisional",
+  "%Name":"dialogo",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_dialogo_provisional",
+  "name":"dialogo",
   "overriddenProperties":[],
   "parent":{
     "name":"controladores",
@@ -32,13 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprCajaDialogo",
-    "path":"sprites/sprCajaDialogo/sprCajaDialogo.yy",
-  },
-  "spriteMaskId":{
-    "name":"sprCajaDialogo",
-    "path":"sprites/sprCajaDialogo/sprCajaDialogo.yy",
-  },
-  "visible":false,
+  "spriteId":null,
+  "spriteMaskId":null,
+  "visible":true,
 }
