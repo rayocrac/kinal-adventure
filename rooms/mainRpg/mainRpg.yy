@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"mainRpg",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/mainRpg/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -36,7 +36,7 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":480,
+    "Height":50,
     "inheritRoomSettings":false,
     "persistent":false,
     "Width":640,
