@@ -14,7 +14,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Kinalero",
-    "path":"folders/Objetos/Kinalero.yy",
+    "path":"folders/Objetos/controladores/SistemaJuego/Kinalero.yy",
   },
   "parentObjectId":null,
   "persistent":true,

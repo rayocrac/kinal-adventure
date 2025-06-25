@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Armas",
-    "path":"folders/Objetos/Kinalero/Armas.yy",
+    "path":"folders/Objetos/controladores/SistemaJuego/Kinalero/Armas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

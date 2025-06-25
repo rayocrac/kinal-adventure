@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"enemigos",
-    "path":"folders/Objetos/enemigos.yy",
+    "path":"folders/Objetos/controladores/SistemaJuego/enemigos.yy",
   },
   "parentObjectId":{
     "name":"obj_enemigo_parent",

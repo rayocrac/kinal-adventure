@@ -1,1 +1,1 @@
-global.juegoPausado = false;
+yaHablo = false;

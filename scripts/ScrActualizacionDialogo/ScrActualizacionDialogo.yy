@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"ScrActualizacionDialogo",
+  "%Name":"scrActualizacionDialogo",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ScrActualizacionDialogo",
+  "name":"scrActualizacionDialogo",
   "parent":{
     "name":"Personajes",
     "path":"folders/Scripts/Personajes.yy",

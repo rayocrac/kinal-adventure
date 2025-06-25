@@ -1,7 +1,7 @@
 // CREATE EVENT de obj_dialogo
 texto = "";
 paginas = [];
-pagina_actual = 0;
+paginaActual = 0;
 cerrado = false;
 margenLados = 10;
 margenAbajo = 10;

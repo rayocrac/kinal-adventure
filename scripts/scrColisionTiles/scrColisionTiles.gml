@@ -40,7 +40,7 @@ function scrColisionTiles(xDestino, yDestino, nombreTilemap) {
         var tile = tilemap_get(idTilemap, tileX, tileY);
         // Si existe un tile sólido, hay colisión
         if (tile != 0) {
-            return true; // Hay colisión
+            return true;
         }
     }
     return false; // No hay colisión
