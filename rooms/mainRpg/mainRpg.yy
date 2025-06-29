@@ -22,8 +22,8 @@
   ],
   "name":"mainRpg",
   "parent":{
-    "name":"kinal adventure",
-    "path":"kinal adventure.yyp",
+    "name":"dePrueba",
+    "path":"folders/Salas/dePrueba.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
@@ -36,7 +36,7 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":50,
+    "Height":1000,
     "inheritRoomSettings":false,
     "persistent":false,
     "Width":640,

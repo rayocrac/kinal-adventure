@@ -1,0 +1,80 @@
+/*en obj_dialogo_NPC no se toca nada, se deja asi como esta
+segun el caso se debe editar lo siguiente: 
+
+obj_dialogo_npc:
+1. debes entrar al npc que quieres con dialogo,
+2. debes crear un step event 
+3. ahi es donde debes pegar y editar segun lo que quieras lo siguiente:*/ 
+
+// si no has hablado con el npc y estás cerca (menos de 10 pixeles), atentos al enter xd  
+if (!yaHablo && distance_to_object(obj_kinalero) < 10) {
+    // si presionas enter y no hay ya un dialogo abierto (no queremos dos dialogos al mismo tiempo, gracias)
+    if (keyboard_check_pressed(vk_enter) && !instance_exists(obj_dialogo_NPC)) {
+        // crea el objeto de dialogo justo donde esta el npc, en la capa "balas" (cambia la capa si quieres pero para no crear mas yo lo pondre en balas o en una llamada dialogos)
+        var idDialogo = instance_create_layer(x, y, "balas", obj_dialogo_NPC);
+        
+        // inicializa el dialogo con TODO lo que necesita para funcionar:
+        scrActualizacionDialogo(
+			// objeto dialogo que acabas de crear (obvio)
+            idDialogo,
+		    // el texto, pon lo que quieras xd
+            "Hola [wave]jugador[/wave], esto es la primera página.[/page]Esto es la [rainbow]segunda[/rainbow] página.[/page]¡Y esta es la [wiggle]tercera[/wiggle] página!",
+            // colorCajaDialogo
+			9,
+		    // spritePersonaje
+            sprConsejeroHablando,
+			// subImagenNo (imagen inicial)
+            0,
+			// booleanInicioHabla (empieza hablando)
+            true,
+			// velAnimado (velocidad animación)
+            3,
+			// arraySonidos
+            [sndConsejeroHablaUno],
+			// velTypist (velocidad aparicion del texto)
+            0.3,
+			// opacidadTypist
+            1,
+			 // textoOmitirSonido (caracteres sin sonido)
+            " aiu.,-+?%$#&!*/"
+        );
+        
+        yaHablo = true;
+    }
+}
+
+
+codigo sin comentario: 
+if (!yaHablo && distance_to_object(obj_kinalero) < 10) {
+    if (keyboard_check_pressed(vk_enter) && !instance_exists(obj_dialogo_NPC)) {
+        var idDialogo = instance_create_layer(x, y, "balas", obj_dialogo_NPC);
+        
+        scrActualizacionDialogo(
+            idDialogo,
+            "Hola [wave]jugador[/wave], esto es la primera página.[/page]Esto es la [rainbow]segunda[/rainbow] página.[/page]¡Y esta es la [wiggle]tercera[/wiggle] página!",
+            // colorCajaDialogo
+			9,
+		    // spritePersonaje
+            sprConsejeroHablando,
+			// subImagenNo (imagen inicial)
+            0,
+			// booleanInicioHabla (empieza hablando)
+            true,
+			// velAnimado (velocidad animación)
+            3,
+			// arraySonidos
+            [sndConsejeroHablaUno],
+			// velTypist (velocidad aparicion del texto)
+            0.3,
+			// opacidadTypist
+            1,
+			 // textoOmitirSonido (caracteres sin sonido)
+            " aiu.,-+?%$#&!*/"
+        );
+        
+        yaHablo = true;
+    }
+}
+
+ojo, tambien podes crear un obj_dialogo_NPC encima de tu npc y configurarlo con codigo de creacion, pero yo prefiero esta forma
+

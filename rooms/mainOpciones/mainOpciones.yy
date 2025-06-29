@@ -19,8 +19,8 @@
   ],
   "name":"mainOpciones",
   "parent":{
-    "name":"kinal adventure",
-    "path":"kinal adventure.yyp",
+    "name":"sistematicas",
+    "path":"folders/Salas/sistematicas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

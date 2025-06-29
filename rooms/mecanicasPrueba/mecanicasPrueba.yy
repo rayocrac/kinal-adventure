@@ -17,8 +17,8 @@
   ],
   "name":"mecanicasPrueba",
   "parent":{
-    "name":"kinal adventure",
-    "path":"kinal adventure.yyp",
+    "name":"dePrueba",
+    "path":"folders/Salas/dePrueba.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
