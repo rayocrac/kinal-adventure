@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrBalaColisionTiles",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrBalaColisionTiles",
+  "parent":{
+    "name":"Kinalero",
+    "path":"folders/Scripts/Kinalero.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

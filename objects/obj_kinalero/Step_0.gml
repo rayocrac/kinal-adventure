@@ -1,3 +1,4 @@
+scrKinaleroArmaActual()
 switch (accion) {
     case "Quieto":
     case "Caminar":
