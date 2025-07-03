@@ -4,7 +4,9 @@ function scrKinaleroMovimiento() {
 
     if (hor != 0 || ver != 0) {
         var dir = point_direction(0, 0, hor, ver);
-		var vel = 1;
+		
+		var vel = 2;
+
         scrPersonajeMovimientoA(vel, dir);
 
         accion = "Caminar";
