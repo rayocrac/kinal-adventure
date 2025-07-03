@@ -109,6 +109,7 @@
     {"id":{"name":"obj_Options","path":"objects/obj_Options/obj_Options.yy",},},
     {"id":{"name":"obj_Pausa","path":"objects/obj_Pausa/obj_Pausa.yy",},},
     {"id":{"name":"obj_secuencias","path":"objects/obj_secuencias/obj_secuencias.yy",},},
+    {"id":{"name":"obj_typingBoss","path":"objects/obj_typingBoss/obj_typingBoss.yy",},},
     {"id":{"name":"grabacionDialogos","path":"rooms/grabacionDialogos/grabacionDialogos.yy",},},
     {"id":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
     {"id":{"name":"mainOpciones","path":"rooms/mainOpciones/mainOpciones.yy",},},
