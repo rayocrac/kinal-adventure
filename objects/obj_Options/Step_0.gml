@@ -1,4 +1,9 @@
-// Navegación hacia abajo
+if(room_get_name(room) == "mainOpciones"){
+	opcionesMostrar = true
+}
+
+if(opcionesMostrar){
+	// Navegación hacia abajo
 if (keyboard_check_pressed(vk_down)) {
     opcion_seleccionada = (opcion_seleccionada + 1) mod array_length(opciones);
     audio_play_sound(sndMovimiento, global.volumen, false);
@@ -26,24 +31,27 @@ if (ajuste != 0) {
         // Reproducir sonido de feedback con el volumen actual
         audio_play_sound(sndMovimiento, global.volumen, false);
     }
-    else if (opcion.tipo == "interruptor") {
-        opcion.valor = !opcion.valor;
-        window_set_fullscreen(opcion.valor);
-        audio_play_sound(sndMovimiento, global.volumen, false);
+   else if (opcion.tipo == "selector") {
+    opcion.valor = (opcion.valor + ajuste + array_length(opcion.opciones)) mod array_length(opcion.opciones);
+    audio_play_sound(sndMovimiento, global.volumen, false);
+    switch(opcion.valor) {
+        case 0: global.velTypist = 0.1; break; // Lento
+        case 1: global.velTypist = 0.3;  break; // Normal
+        case 2: global.velTypist = 0.6;  break; // Rapido
     }
-    else if (opcion.tipo == "selector") {
-        opcion.valor = (opcion.valor + ajuste + array_length(opcion.opciones)) mod array_length(opcion.opciones);
-        audio_play_sound(sndMovimiento, global.volumen, false);
-    }
+}
 }
 
 // Confirmar selección
 if (keyboard_check_pressed(vk_enter)) {
     audio_play_sound(sndMovimiento, global.volumen, false);
     if (opciones[opcion_seleccionada].tipo == "regresar") {
+		opcionesMostrar = false;
 		room_goto(mainMenu)
+		
     }
 }
 
 // Actualizar animación de texto
 desplazamiento += 0.1;
+} else{}
