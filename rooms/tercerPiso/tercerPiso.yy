@@ -103,7 +103,7 @@
           0,2,124,155,-12,157,1,81,-3,79,2,81,83,-15,0,2,124,155,-12,157,-4,119,4,120,121,0,0,-4,-2147483648,-9,
           0,2,124,155,-12,157,-4,156,4,158,121,79,79,-13,80,2,124,155,-12,157,-4,156,2,158,121,-14,118,3,119,124,
           155,-12,157,-4,156,2,196,121,-14,232,3,233,238,155,-12,157,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tiles","path":"tilesets/tiles/tiles.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tiles","path":"tilesets/tiles/tiles.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"pared","depth":0,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"pared","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":69,"SerialiseWidth":35,"TileCompressedData":[
           -14,536871334,1,536871189,-6,470,-14,536871334,2,536871066,536871143,-11,536871145,2,536871146,536871037,
           -6,470,2,154,536871143,-11,536871145,3,536871146,154,155,-11,11,2,158,159,-6,470,2,154,193,-12,156,2,
