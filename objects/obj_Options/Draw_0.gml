@@ -1,4 +1,5 @@
-// Fondo blanco
+if(opcionesMostrar){
+	// Fondo blanco
 draw_set_color(c_white);
 draw_rectangle(fa_left, fa_left, display_get_width(), display_get_height(), false);
 
@@ -43,12 +44,6 @@ for (var i = 0; i < array_length(opciones); i++) {
                 draw_rectangle(slider_x, pos_y - 2, slider_x + ancho_lleno, pos_y + 12, true);
                 break;
                 
-            case "interruptor":
-                var toggle_x = posicion_x + 100;
-                draw_set_color(opcion.valor ? c_black : c_gray);
-                draw_text(toggle_x, pos_y, opcion.valor ? "ON" : "OFF");
-                break;
-                
             case "selector":
                 var selector_x = posicion_x + 100;
                 draw_set_color(c_black);
@@ -71,11 +66,7 @@ for (var i = 0; i < array_length(opciones); i++) {
             case "deslizador":
                 draw_text(posicion_x + 100, pos_y, string(round(opcion.valor * 100)) + "%");
                 break;
-                
-            case "interruptor":
-                draw_text(posicion_x + 100, pos_y, opcion.valor ? "ON" : "OFF");
-                break;
-                
+				
             case "selector":
                 draw_text(posicion_x + 100, pos_y, opcion.opciones[opcion.valor]);
                 break;
@@ -91,3 +82,5 @@ for (var i = 0; i < array_length(opciones); i++) {
 draw_set_font(fntDos);
 draw_set_halign(fa_center);
 draw_text(room_width/2, room_height/1.1, "KINAL ADVENTURE CREW - v1.0");
+}
+

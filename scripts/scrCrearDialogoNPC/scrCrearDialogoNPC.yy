@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrCrearDialogoNPC",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrCrearDialogoNPC",
+  "parent":{
+    "name":"Personajes",
+    "path":"folders/Scripts/Personajes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

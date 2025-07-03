@@ -10,8 +10,8 @@
   "name":"obj_dialogo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Personajes",
-    "path":"folders/Objetos/controladores/SistemaJuego/Personajes.yy",
+    "name":"Dialogos",
+    "path":"folders/Objetos/controladores/SistemaJuego/Personajes/Dialogos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
