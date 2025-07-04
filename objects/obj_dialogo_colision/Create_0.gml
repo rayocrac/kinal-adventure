@@ -1,4 +1,4 @@
-nuevo= false;
+
 abrirAlColisionar = true;
 dialogos = "[speed,0.15][wobble]¿?  zzz... zzz... zzz...[/wobble][/speed] ¡Otra vez aqui?[/page]" +
 "[pulse]El pasto te volvio a ganar la batalla...[/pulse][/page]" +

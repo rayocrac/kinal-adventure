@@ -1,4 +1,4 @@
-
+depth = 1000
 
 if (!cerrado && keyboard_check_pressed(vk_enter)) {
     

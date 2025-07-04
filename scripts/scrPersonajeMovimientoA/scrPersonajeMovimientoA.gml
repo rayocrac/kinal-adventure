@@ -1,7 +1,7 @@
 function scrPersonajeMovimientoA(spd, dir) {
     var tilemap_id = layer_tilemap_get_id("tileColision");
-    var arr = scrObjetosSolidos();  // Tu función que devuelve array de objetos con colisión
-
+    var arr = scrObjetosSolidos();
+	
     // Intentamos movernos tratando colisión suave con ángulos
     for (var angle = 0; angle < 90; angle += 15) {
         for (var multiplier = -1; multiplier <= 1; multiplier += 2) {
