@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"ntsObj_Dialogo",
+  "name":"ntsObj_Dialogo",
+  "parent":{
+    "name":"Notas",
+    "path":"folders/Notas.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

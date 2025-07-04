@@ -1,0 +1,16 @@
+en el sprCajaDialogo implemente un sistema de frame segun colo aol ser llamada.
+
+este es el indice de colores, si se agrega alguno nuevo favor de escribirlo aqui: 
+
+0. Blanco
+1. Rojo
+2. Naranja
+3. Amarillo
+4. Verde
+5. Azul
+6. Indigo
+7. Morado
+8. Rosado
+9. Olo(celeste electrico)
+10. N/E
+... agregar mas si se necesita

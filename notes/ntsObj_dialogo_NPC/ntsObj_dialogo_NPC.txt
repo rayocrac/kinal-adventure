@@ -1,0 +1,156 @@
+/*en obj_dialogo_NPC no se toca nada, se deja asi como esta
+segun el caso se debe editar lo siguiente: 
+
+obj_dialogo_npc:
+1. debes entrar al npc que quieres con dialogo,
+2. debes crear un step event 
+3. ahi es donde debes pegar y editar segun lo que quieras lo siguiente:*/ 
+
+en el create del npc debes poner esto: // --- Variables de dialogo para este NPC ---
+// Frases del NPC, cada string es una pagina de dialogo
+dialogos = [
+    "¡Hola! Este es el primer dialogo del NPC.",
+    "Este es el segundo dialogo. ¿Como estas?",
+    "¡Ultimo dialogo! Nos vemos."
+];
+
+// Indice del dialogo actual. Normalmente inicia en 0
+dialogoActual = 0;
+
+// ¿Repetir todos los dialogos en bucle? (true/false)
+repetirTodo = false;
+
+// ¿Repetir un solo dialogo especifico al terminar? (true/false)
+repetirTexto = false;
+
+// Indice del texto a repetir si repetirTexto es true
+indiceTextoRepetir = 0;
+
+// Controla si el NPC ya hablo, evita repetir mientras esta abierta la caja
+yaHablo = false;
+
+// Distancia maxima para activar el dialogo (en pixeles)
+distancia_activar = 10;
+
+// ¿Es cinemática? (true/false)
+esCinematica = false;
+
+// Sprite de fondo si es cinemática (noone si no)
+fondoSiCinematica = noone;
+
+// Color del texto del NPC (ej: c_white)
+colorTextoNPC = c_white;
+
+// Color de la caja de dialogo (ej: c_black, c_white)
+colorCaja = c_white;
+
+//tamaño de la caja de dialogo, el promedio es 60 ggs
+tamanoCaja = 60
+// Desplazamiento vertical negativo de la caja (hacia arriba, normalmente 0)
+yNegativa = 0;
+
+// Desplazamiento vertical positivo de la caja (hacia abajo, normalmente 0)
+yPositiva = 0;
+
+// Sprite del NPC hablando
+sprNPC = sprIdleMangolias;
+
+// Fuente para el texto del NPC
+strngFuenteNPC = "fntMinecraft";
+
+// ¿El NPC comienza hablando (animado)? (true/false)
+boolInicioHabla = true;
+
+// Velocidad de animacion del sprite hablando (frames por letra)
+velAnimado = 3;
+
+// Array de sonidos para el efecto typist
+arraySonidos = [ sndConsejeroHablaUno ];
+
+// Velocidad del efecto typist (menor = mas rapido)
+velTypist = 0.3;
+
+// Opacidad del typist (0 a 1)
+opcdTypist = 1;
+
+// Pitch minimo para el sonido typist (ej: 0.9)
+pitchMinimo = 0.9;
+
+// Pitch maximo para el sonido typist (ej: 1.1)
+pitchMaximo = 1.1;
+
+// Caracteres a los que NO se les pone sonido (espacios, comas, etc)
+textoOmitirSonido = " ,-+a";
+
+aqui el copypasta sin notas: 
+dialogos = [
+    "¡Hola! Este es el primer dialogo del NPC.",
+    "Este es el segundo dialogo. ¿Como estas?",
+    "¡Ultimo dialogo! Nos vemos."
+];
+
+dialogoActual = 0;
+repetirTodo = false;
+repetirTexto = false;
+indiceTextoRepetir = 0;
+yaHablo = false;
+distancia_activar = 10;
+
+esCinematica = false;
+fondoSiCinematica = noone;
+
+colorTextoNPC = c_white;
+colorCaja = c_white;
+tamanoCaja = 60
+yNegativa = 0;
+yPositiva = 0;
+
+sprNPC = sprIdleMangolias;
+strngFuenteNPC = "fntMinecraft";
+boolInicioHabla = true;
+velAnimado = 3;
+
+arraySonidos = [ sndConsejeroHablaUno ];
+velTypist = 0.3;
+opcdTypist = 1;
+pitchMinimo = 0.9;
+pitchMaximo = 1.1;
+textoOmitirSonido = " ,-+a";
+
+en el step debe ir esto: 
+var resultado = scrCrearDialogoNPC(
+    dialogos,
+    dialogoActual,
+    repetirTodo,
+    repetirTexto,
+    indiceTextoRepetir,
+    yaHablo,
+    distancia_activar,
+    x,
+    y,
+    esCinematica,
+    fondoSiCinematica,
+    colorTextoNPC,
+    colorCaja,
+	tamanoCaja,
+    yNegativa,
+    yPositiva,
+    sprNPC,
+    strngFuenteNPC,
+    boolInicioHabla,
+    velAnimado,
+    arraySonidos,
+    velTypist,
+    opcdTypist,
+    pitchMinimo,
+    pitchMaximo,
+    textoOmitirSonido
+);
+
+dialogoActual = resultado.dialogo_actual;
+yaHablo = resultado.yaHablo;
+
+eso no se toca a menos que cambies de nombre una variable, no recomendable, luego de haber hecho
+los pasos anteriores, debes poner el obj_NPC osea el npc en una room, si quieres que por ejemplo
+est6e en x room con un dialogo, y luego este en otra room con otro texto ponlo en la otra room
+en codigo de instancia pega lo del create4 y manipulalo a tu antojo.

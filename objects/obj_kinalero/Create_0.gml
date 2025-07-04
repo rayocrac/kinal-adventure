@@ -1,7 +1,9 @@
-global.juegoPausado = false;
+
 
 accion = "Quieto";
 fotograma = "Abajo";
+velocidadDash= 6;
+direccionDash=0;
 
 //le dal el arma al kinalero
 arma = {

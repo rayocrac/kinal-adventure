@@ -1,3 +1,4 @@
+
 if (alarm[0] < 0){
 	hp -= other.dano;
 	alarm[0] = 60;

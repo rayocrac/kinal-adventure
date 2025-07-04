@@ -96,8 +96,8 @@
   ],
   "name":"rClaseUno",
   "parent":{
-    "name":"Niveles",
-    "path":"folders/Niveles.yy",
+    "name":"nivel uno",
+    "path":"folders/Salas/Niveles/nivel uno.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

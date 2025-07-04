@@ -1,0 +1,146 @@
+/*en obj_  dialogo y obj_dialogo_NPC no se toca nada, se deja asi como esta
+segun el caso se debe editar lo siguiente: 
+
+obj_dialogo:
+1. debes crear un objeto en la room donde quieres que salga un mensaje predeterminado
+2. debes dar clcick en el y ver donde dice codigo de fabricacion o codigo de instancia unico
+3. ahi es donde debes pegar y editar segun lo que quieras lo siguiente:*/ 
+
+// el texto que va a decir el npc, puedes poner varios saltos de pagina con [/page]  
+// recuerda ponerlos luego de 56 caracteres por pagina o se ve feo  
+//si quieres agregar estilos consulta el ntsComandosScribble
+texto = "no te habia visto ahi... [/page]"; 
+
+// divide el texto en paginas usando el [/page], no lo toques si no sabes  
+paginas = string_split(texto, "[/page]");
+
+// pagina que se muestra, siempre 0 al inicio para que no se salte la primera xd  
+paginaActual = 0;
+
+// si quieres que el dialogo este abierto pon false, si true se cierra y no aparece  
+cerrado = false;
+
+// margen lateral para que el cuadro no quede pegado a la camara, sube o baja para moverlo  
+margenLados = 10;
+
+// margen desde abajo, para que el cuadro no quede pegado al borde inferior  
+margenAbajo = 10;
+
+// altura del cuadro, sube si quieres un cuadro mas alto para texto o efectos  
+cuadroAlto = 50;
+
+// ancho del cuadro calculado segun la vista de la camara y margenes, no lo toques a menos que  
+// cambies margenLados (es mejor asi que poner un numero fijo para que se adapte a la camara)  
+cuadroAncho = camera_get_view_width(view_camera[0]) - margenLados * 2;
+
+// el color del cuadro donde aparece el texto, cambia el numero para otro color (ver ntscajaDialogo)  
+colorCajaDialogo = 9;
+
+// el sprite que se animara para mostrar al personaje que habla, cambia por otro si quieres  
+personajeHablando = sprConsejeroHablando;
+
+// subimagen o frame del sprite, generalmente empieza en 0 para que no se salte la animacion  
+subImagen = 0;
+
+// si quieres que el personaje empiece animando la boca pon true, si no pon false  
+hablando = true;
+
+// velocidad de la animacion del sprite, 1 es rapido, 7 o mas es lento (no te pases o se vera raro)  
+animacionVel = 7;
+
+// contador interno para controlar cuando cambiar el frame, no edites salvo que sepas  
+contadorAnim = 0;
+
+// sonidos que se reproducen al escribir cada letra, debe ser un array  
+// puedes poner varios sonidos para que se escuche mas natural xd  
+sonidosPersonaje = [sndConsejeroHablaUno];
+
+// crea el objeto para que el texto se escriba letra por letra, no lo toques  
+typist = scribble_typist();
+
+// velocidad y opacidad del efecto de tipeo, 0.3 es lento, 1 opaco completo, ajusta si quieres  
+typist.in(0.3, 1);
+
+// ATENCION: elige uno de los dos tipos de sonidos para el tipeo
+
+// 1. Sonidos que se reproducen por cada caracter, menos los que pongas entre ""  
+// el 1 es pitch minimo, 5 maximo, el ultimo numero es volumen (ajustalo a tu gusto)  
+typist.sound_per_char(sonidosPersonaje,1,5," aiu.,-+?%$#&!*/",0.5);
+
+// 2. Sonidos que se repiten rapido sin importar caracter, el numero 800 es la velocidad  
+// typist.sound(sonidosPersonaje,800,1,5,1)
+
+// animacion del personaje hablando, cambia de frame cada vez que se escribe una letra  
+typist.function_per_char(function(_element, _position, _typist) {
+    if (!_typist.get_skip()) { // si no saltaste la animacion con skip  
+        contadorAnim += 1; // suma al contador  
+        if (contadorAnim >= animacionVel) { // si ya toca cambiar de frame  
+            contadorAnim = 0; // resetea contador  
+            subImagen += 1; // siguiente frame  
+            if (subImagen >= sprite_get_number(personajeHablando)) { // si llego al ultimo frame  
+                subImagen = 0; // vuelve al inicio, asi siempre xd  
+            }
+        }
+    }
+});
+
+// cuando termina de escribir el texto, pone la boca cerrada y deja de animar  
+typist.function_on_complete(function(_element, _typist) {
+    subImagen = 0;
+    hablando = false;
+});
+
+// crea el buffer de texto que se dibuja en pantalla, ajusta el -25 si cambias cuadroAncho  
+buffer = scribble(paginas[paginaActual]).wrap(cuadroAncho - 25, cuadroAlto, typist);
+
+//aqui el codigo para copypastear sin las notas: 
+
+texto = "no te habia visto ahi...";
+paginas = string_split(texto, "[/page]");
+
+paginaActual = 0;
+cerrado = false;
+
+margenLados = 10;
+margenAbajo = 10;
+cuadroAlto = 50;
+cuadroAncho = camera_get_view_width(view_camera[0]) - margenLados * 2;
+
+colorCajaDialogo = 9;
+personajeHablando = sprConsejeroHablando;
+subImagen = 0;
+hablando = true;
+animacionVel = 3;
+contadorAnim = 0;
+
+sonidosPersonaje = [sndConsejeroHablaUno];
+typist = scribble_typist();
+typist.in(0.3, 1);
+typist.sound_per_char(sonidosPersonaje,1,5," aiu.,-+?%$#&!*/",0.5);
+
+// Avanza la animación del personaje por cada letra escrita
+typist.function_per_char(function(_element, _position, _typist) {
+    if (!_typist.get_skip()) {
+        contadorAnim += 1;
+        if (contadorAnim >= animacionVel) {
+            contadorAnim = 0;
+            subImagen += 1;
+
+            if (subImagen >= sprite_get_number(personajeHablando)) {
+                subImagen = 0;
+            }
+        }
+    }
+});
+
+// Cuando se termina de escribir, se deja al personaje con la boca cerrada
+typist.function_on_complete(function(_element, _typist) {
+    subImagen = 0;
+    hablando = false;
+});
+
+// Crear el buffer inicial con el primer bloque de texto
+buffer = scribble(paginas[paginaActual]).wrap(cuadroAncho - 25, cuadroAlto, typist);
+
+
+

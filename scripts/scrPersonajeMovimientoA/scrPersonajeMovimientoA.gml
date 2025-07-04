@@ -1,24 +1,32 @@
 function scrPersonajeMovimientoA(spd, dir) {
-    // Bucle que recorre ángulos desde 0 hasta 50, en pasos de 10 (0, 10, 20, ..., 50)
-    for (var angulo = 0; angulo < 60; angulo += 10) {
-        
-        // Segundo bucle: el multiplicador puede ser -1 o 1, para probar a ambos lados del ángulo base
-        for (var multiplicador = -1; multiplicador <= 1; multiplicador += 2) {
-            
-            // Calcula una nueva dirección sumando o restando el ángulo a la dirección actual
-            var nuevaDir = dir + angulo * multiplicador;
-            
-            // Calcula la nueva posición (xA, yA) desplazándose en la nueva dirección con la velocidad 'spd'
-            var xA = round(x + lengthdir_x(spd, nuevaDir));
-            var yA = round(y + lengthdir_y(spd, nuevaDir));
-    
-            // Verifica si la nueva posición está libre de colisiones
-            if (place_free(xA, yA)) {
-                // Si la posición está libre, mueve al personaje ahí y sale de la función
-                x = xA;
-                y = yA;
+    var tilemap_id = layer_tilemap_get_id("tileColision");
+    var arr = scrObjetosSolidos();
+	
+    // Intentamos movernos tratando colisión suave con ángulos
+    for (var angle = 0; angle < 90; angle += 15) {
+        for (var multiplier = -1; multiplier <= 1; multiplier += 2) {
+            var newDir = dir + angle * multiplier;
+            var xTo = x + lengthdir_x(spd, newDir);
+            var yTo = y + lengthdir_y(spd, newDir);
+
+            if ((tilemap_id == -1 || !place_meeting(xTo, yTo, tilemap_id)) && !scrObjetosColisionables(spd, newDir, arr)) {
+                x = xTo;
+                y = yTo;
                 exit;
             }
         }
+    }
+
+    // Deslizamiento por ejes X y Y
+    var xTo = x + lengthdir_x(spd, dir);
+    var yTo = y + lengthdir_y(spd, dir);
+
+    if ((tilemap_id == -1 || !place_meeting(xTo, y, tilemap_id)) && !scrObjetosColisionables(spd, dir, arr)) {
+        x = xTo;
+        exit;
+    }
+    if ((tilemap_id == -1 || !place_meeting(x, yTo, tilemap_id)) && !scrObjetosColisionables(spd, dir, arr)) {
+        y = yTo;
+        exit;
     }
 }

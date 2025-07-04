@@ -9,8 +9,8 @@
   "name":"obj_Nivel",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Mapas",
+    "path":"folders/Objetos/controladores/SistemaJuego/Mapas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

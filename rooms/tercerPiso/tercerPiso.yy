@@ -36,7 +36,7 @@
         {"$GMRInstance":"v2","%Name":"inst_55FA27F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":2,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55FA27F4","objectId":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-0.9,"scaleY":0.7,"x":32.0,"y":992.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_62524E48","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_62524E48","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Camara","path":"sprites/Camara/Camara.yy",},"x":276.0,"y":0.0,},
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_62524E48","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_62524E48","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sprCamara","path":"sprites/sprCamara/sprCamara.yy",},"x":276.0,"y":0.0,},
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_5C85CBC","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5C85CBC","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sprIdleMangolias","path":"sprites/sprIdleMangolias/sprIdleMangolias.yy",},"x":32.0,"y":32.0,},
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_34AACBC1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_34AACBC1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sprIdleBarrascout","path":"sprites/sprIdleBarrascout/sprIdleBarrascout.yy",},"x":384.0,"y":800.0,},
       ],"depth":-300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
@@ -162,7 +162,7 @@
   "name":"tercerPiso",
   "parent":{
     "name":"nivel uno",
-    "path":"folders/Niveles/nivel uno.yy",
+    "path":"folders/Salas/Niveles/nivel uno.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
