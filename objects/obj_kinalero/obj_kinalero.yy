@@ -36,9 +36,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprKinaleroQuietoAbajo",
-    "path":"sprites/sprKinaleroQuietoAbajo/sprKinaleroQuietoAbajo.yy",
+    "name":"sprKinaleroCaminarAbajo",
+    "path":"sprites/sprKinaleroCaminarAbajo/sprKinaleroCaminarAbajo.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sprHitboxKinalero",
+    "path":"sprites/sprHitboxKinalero/sprHitboxKinalero.yy",
+  },
   "visible":true,
 }

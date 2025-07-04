@@ -1,3 +1,4 @@
+
 // --- Variables de dialogo para este NPC ---
 // Frases del NPC, cada string es una pagina de dialogo
 dialogos = [

@@ -30,7 +30,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"sprIdleMangolias",
     "path":"sprites/sprIdleMangolias/sprIdleMangolias.yy",

@@ -1,19 +1,10 @@
-// Evento Step de obj_bala
+var tilemap_id = layer_tilemap_get_id("tileColision");
+var xTo = x + lengthdir_x(speed, direction);
+var yTo = y + lengthdir_y(speed, direction);
 
-var xDestino = x + lengthdir_x(speed, direction);
-var yDestino = y + lengthdir_y(speed, direction);
-
-// Verifica si la capa "tileColision" existe
-if (layer_exists("tileColision")) {
-    // Si existe, verifica colisión
-    if (!scrColisionTiles(xDestino, yDestino, "tileColision")) {
-        x = xDestino;
-        y = yDestino;
-    } else {
-        instance_destroy(); // Se destruye al chocar
-    }
+if (!place_meeting(xTo, yTo, tilemap_id)) {
+    x = xTo;
+    y = yTo;
 } else {
-    // Si no existe la capa, mueve la bala libremente
-    x = xDestino;
-    y = yDestino;
+    instance_destroy(); // Se destruye al chocar con el tilemap
 }
