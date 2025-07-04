@@ -1,4 +1,4 @@
 function scrObjetosSolidos(){
 
-return [obj_Magnolias,obj_Blanco]
+return [obj_Blanco,obj_dialogo_acting]
 }

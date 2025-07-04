@@ -1,7 +1,9 @@
 
 if (!cerrado) {
+	
+	
     var camara = view_camera[0];
-    var vistaX = camera_get_view_x(camara);
+    var vistaX = camera_get_view_x(camara)
     var vistaY = camera_get_view_y(camara);
     var vistaAlto = camera_get_view_height(camara);
 	var vistaAncho = camera_get_view_width(camara);

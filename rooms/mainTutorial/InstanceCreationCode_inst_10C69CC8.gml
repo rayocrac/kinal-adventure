@@ -1,10 +1,10 @@
-
+/*   
 global.cinematica = true;
 global.cinematicaDialogo = self;
 textoCompleto = false
 
 
-textoTotal ="lol" /*"[speed,0.15][wobble]¿?  zzz... zzz... zzz...[/wobble][/speed] ¡Otra vez aqui?[/page]" +
+textoTotal ="lol" "[speed,0.15][wobble]¿?  zzz... zzz... zzz...[/wobble][/speed] ¡Otra vez aqui?[/page]" +
 "[pulse]El pasto te volvio a ganar la batalla...[/pulse][/page]" +
 "[speed,0.18][wave]Te quedaste dormido en el campo de Kinal.[/wave][/speed][/page]" +
 "[jitter]Lo peor es que parece que estas soñando...[/jitter][/page]" +
@@ -24,7 +24,7 @@ textoTotal ="lol" /*"[speed,0.15][wobble]¿?  zzz... zzz... zzz...[/wobble][/spe
 "[pulse][c_green]¿verdad?[/color][/pulse]         [wobble]Lastima.[/wobble][/page]" +
 "[wave]Arriba, kinalerito. es el momento[/wave][/page]" +
 "[rainbow][jitter]Este es el inicio de tu camino.[/jitter][/rainbow][/page]" +
-"[pulse]Empezar es de muchos, terminar [speed,0.05]de pocos.[/speed][/pulse]";*/
+"[pulse]Empezar es de muchos, terminar [speed,0.05]de pocos.[/speed][/pulse]";
 textoActual = "";
 paginas = string_split(textoTotal, "[/page]");
 
@@ -90,3 +90,4 @@ maxPitch = 3
 
 // Cargar paginas
 cargarPagina(paginaActual);
+*/

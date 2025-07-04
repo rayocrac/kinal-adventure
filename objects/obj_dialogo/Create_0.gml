@@ -1,5 +1,4 @@
 
-depth = 1000;
 
 global.cinematica = false
 global.cinematicaDialogo = noone;

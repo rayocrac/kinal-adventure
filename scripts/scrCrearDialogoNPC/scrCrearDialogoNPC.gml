@@ -50,7 +50,7 @@ function scrCrearDialogoNPC(abrirAlcolisionar, tipoDialogo,
 
         if (texto_a_mostrar != "") {
             var idDialogo = instance_create_layer(posXNPC, posYNPC, "dialogos", tipoDialogo);
-			idDialogo.depth = 10000;
+			idDialogo.depth = -1000;
 
             scrActualizacionDialogo(
                 idDialogo, colorTextoNPC, texto_a_mostrar, colorCaja,

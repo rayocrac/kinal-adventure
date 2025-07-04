@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Magnolias",
+  "%Name":"obj_dialogo_acting",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Magnolias",
+  "name":"obj_dialogo_acting",
   "overriddenProperties":[],
   "parent":{
-    "name":"Personajes",
-    "path":"folders/Objetos/controladores/SistemaJuego/Personajes.yy",
+    "name":"Dialogos",
+    "path":"folders/Objetos/controladores/SistemaJuego/Personajes/Dialogos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprIdleMangolias",
-    "path":"sprites/sprIdleMangolias/sprIdleMangolias.yy",
+    "name":"sprSecuencialRojo",
+    "path":"sprites/sprSecuencialRojo/sprSecuencialRojo.yy",
   },
-  "spriteMaskId":{
-    "name":"sprIdleMangolias",
-    "path":"sprites/sprIdleMangolias/sprIdleMangolias.yy",
-  },
-  "visible":true,
+  "spriteMaskId":null,
+  "visible":false,
 }
