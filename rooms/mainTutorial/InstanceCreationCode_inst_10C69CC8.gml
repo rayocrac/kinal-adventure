@@ -1,10 +1,10 @@
-/*   
+
 global.cinematica = true;
 global.cinematicaDialogo = self;
 textoCompleto = false
 
 
-textoTotal ="lol" "[speed,0.15][wobble]¿?  zzz... zzz... zzz...[/wobble][/speed] ¡Otra vez aqui?[/page]" +
+textoTotal = "[speed,0.15][wobble]¿?  zzz... zzz... zzz...[/wobble][/speed] ¡Otra vez aqui?[/page]" +
 "[pulse]El pasto te volvio a ganar la batalla...[/pulse][/page]" +
 "[speed,0.18][wave]Te quedaste dormido en el campo de Kinal.[/wave][/speed][/page]" +
 "[jitter]Lo peor es que parece que estas soñando...[/jitter][/page]" +
@@ -61,7 +61,7 @@ maxPitch = 3
 		// Reiniciar typist para evitar sobrecarga
 		typist = scribble_typist();
 		typist.in(global.velTypist, opacidadTypist);
-		typist.sound_per_char(sonidosPersonaje, minPitch, maxPitch, "caracteres que no quieres con sonido", 0.5);
+		typist.sound_per_char(sonidosPersonaje, minPitch, maxPitch, " ,-}¿{", 0.5);
 
 		// Animación por letra
 		typist.function_per_char(function(_element, _position, _typist) {
@@ -90,4 +90,3 @@ maxPitch = 3
 
 // Cargar paginas
 cargarPagina(paginaActual);
-*/
