@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Magnolias",
+  "%Name":"obj_dialogo_colision",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Magnolias",
+  "name":"obj_dialogo_colision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Personajes",
-    "path":"folders/Objetos/controladores/SistemaJuego/Personajes.yy",
+    "name":"Dialogos",
+    "path":"folders/Objetos/controladores/SistemaJuego/Personajes/Dialogos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,14 +30,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"sprIdleMangolias",
-    "path":"sprites/sprIdleMangolias/sprIdleMangolias.yy",
+    "name":"sprSecuencialAzul",
+    "path":"sprites/sprSecuencialAzul/sprSecuencialAzul.yy",
   },
-  "spriteMaskId":{
-    "name":"sprIdleMangolias",
-    "path":"sprites/sprIdleMangolias/sprIdleMangolias.yy",
-  },
-  "visible":true,
+  "spriteMaskId":null,
+  "visible":false,
 }

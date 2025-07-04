@@ -1,6 +1,6 @@
 
-// --- Variables de dialogo para este NPC ---
-// Frases del NPC, cada string es una pagina de dialogo
+
+
 dialogos = [
     "¡Hola! Este es el primer dialogo del NPC.",
     "Este es el segundo dialogo. ¿Como estas?",

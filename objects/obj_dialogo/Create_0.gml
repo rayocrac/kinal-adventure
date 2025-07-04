@@ -1,3 +1,5 @@
+
+
 global.cinematica = false
 global.cinematicaDialogo = noone;
 textoCompleto= false;

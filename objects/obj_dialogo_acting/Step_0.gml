@@ -1,4 +1,5 @@
-var resultado = scrCrearDialogoNPC(
+
+var resultado = scrCrearDialogoNPC(false,obj_dialogo_NPC,
     dialogos,
     dialogoActual,
     repetirTodo,
@@ -8,8 +9,6 @@ var resultado = scrCrearDialogoNPC(
     distancia_activar,
     x,
     y,
-    esCinematica,
-    fondoSiCinematica,
     colorTextoNPC,
     colorCaja,
 	tamanoCaja,

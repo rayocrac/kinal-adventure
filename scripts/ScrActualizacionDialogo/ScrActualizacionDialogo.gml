@@ -1,6 +1,4 @@
-function scrActualizacionDialogo(_dialogo,
-_esCinematica,
-_fondoSiCinematica, 
+function scrActualizacionDialogo(_dialogo, 
 _colorTextoNPC, 
 _textoNPC, 
 _colorCaja,
@@ -19,13 +17,6 @@ _pitchMaximo,
 _textoOmitirSonido) {
 	
     with (_dialogo) {
-		if(_esCinematica){
-			global.cinematica = true
-			global.cinematicaDialogo = self;
-		} else {
-			global.cinematica = false
-			global.cinematicaDialogo = noone;
-		}
 
 		textoCompleto= false;
 		
@@ -46,7 +37,6 @@ _textoOmitirSonido) {
 		fuentePersonaje = _strngFuenteNPC;
 		colorTexto = _colorTextoNPC;
 		personajeHablando = _sprNPC;
-		spriteFondoCinematica = _fondoSiCinematica
 		subImagen = 0;
 		
 		hablando = _boolInicioHabla;

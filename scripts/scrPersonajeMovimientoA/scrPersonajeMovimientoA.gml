@@ -1,28 +1,32 @@
 function scrPersonajeMovimientoA(spd, dir) {
     var tilemap_id = layer_tilemap_get_id("tileColision");
+    var arr = scrObjetosSolidos();
 	
-    for (var angle = 0; angle < 90; angle += 15) { 
+    // Intentamos movernos tratando colisión suave con ángulos
+    for (var angle = 0; angle < 90; angle += 15) {
         for (var multiplier = -1; multiplier <= 1; multiplier += 2) {
             var newDir = dir + angle * multiplier;
             var xTo = x + lengthdir_x(spd, newDir);
             var yTo = y + lengthdir_y(spd, newDir);
-            if (!place_meeting(xTo, yTo, tilemap_id)) {
+
+            if ((tilemap_id == -1 || !place_meeting(xTo, yTo, tilemap_id)) && !scrObjetosColisionables(spd, newDir, arr)) {
                 x = xTo;
                 y = yTo;
                 exit;
             }
         }
     }
-    // Slide por ejes
-    if (!place_meeting(x + lengthdir_x(spd, dir), y, tilemap_id)) {
-        x += lengthdir_x(spd, dir);
-        exit;
-    }
-    if (!place_meeting(x, y + lengthdir_y(spd, dir), tilemap_id)) {
-        y += lengthdir_y(spd, dir);
-        exit;
-    }
-	
-	
 
+    // Deslizamiento por ejes X y Y
+    var xTo = x + lengthdir_x(spd, dir);
+    var yTo = y + lengthdir_y(spd, dir);
+
+    if ((tilemap_id == -1 || !place_meeting(xTo, y, tilemap_id)) && !scrObjetosColisionables(spd, dir, arr)) {
+        x = xTo;
+        exit;
+    }
+    if ((tilemap_id == -1 || !place_meeting(x, yTo, tilemap_id)) && !scrObjetosColisionables(spd, dir, arr)) {
+        y = yTo;
+        exit;
+    }
 }
