@@ -1,3 +1,3 @@
-target_x = 38;
-target_y = 180;
-target_rm = rNivelEspecial;
+target_x = 40;
+target_y = 396;
+target_rm = rClaseUno;

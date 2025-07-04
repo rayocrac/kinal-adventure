@@ -13,7 +13,7 @@ if (keyboard_check_pressed(vk_enter)) {
     audio_play_sound(sndMenuMove, 1, false);
     switch(opcion_seleccionada) {
         case 0: // Jugar
-            room_goto(mainTutorial);
+            room_goto(SegundoPiso);
             break;
         case 1: // Menú Opciones
 		room_goto(mainOpciones)
