@@ -46,7 +46,7 @@ yNegativa = 0;
 yPositiva = 0;
 
 // Sprite del NPC hablando
-sprNPC = sprIdleMangolias;
+sprNPC = sprIdleBarrascout;
 
 // Fuente para el texto del NPC
 strngFuenteNPC = "fntMinecraft";
