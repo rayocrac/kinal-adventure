@@ -33,9 +33,9 @@ cerrado = false;
 
 margenLados = 10;
 margenAbajo = 10;
-cuadroAlto = 80;
+cuadroAlto = 60;
 cuadroAncho = camera_get_view_width(view_camera[0]) - margenLados * 2;
-posYNegativa = 0
+posYNegativa = 105
 posYPositiva = 0;
 
 colorCajaDialogo = 9;

@@ -1,5 +1,6 @@
-global.cinematica = false
-global.cinematicaDialogo = noone;
+
+depth = -1000;
+
 textoCompleto= false;
 
 textoTotal = "texto generico aqui"; 
@@ -21,7 +22,6 @@ fuentePersonaje = "fntConsejero";
 escalaNPC = 1;
 colorTexto = c_white;
 personajeHablando = sprConsejeroHablando;
-spriteFondoCinematica = sprDreamsCity
 subImagen = 0;
 hablando = true;
 animacionVel = 3;

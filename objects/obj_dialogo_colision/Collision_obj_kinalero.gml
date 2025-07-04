@@ -1,7 +1,5 @@
-depth = -1000
-layer_force_draw_depth(true, -1000)
 
-var resultado = scrCrearDialogoNPC(false,obj_dialogo_NPC,
+var resultado = scrCrearDialogoNPC(true,obj_dialogo,
     dialogos,
     dialogoActual,
     repetirTodo,

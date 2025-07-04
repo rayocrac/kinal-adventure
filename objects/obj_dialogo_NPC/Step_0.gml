@@ -20,14 +20,10 @@ if (!cerrado && keyboard_check_pressed(vk_enter)) {
     } else {
         // Diálogo finalizado
         cerrado = true;
-		global.cinematica = false;
-		global.pausa = false
     }
 }
 
 if(cerrado){
-	
-	global.cinematicaDialogo = noone;
 	instance_destroy();
 	
 }

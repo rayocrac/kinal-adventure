@@ -9,7 +9,8 @@ var posX = vistaX + vistaAncho / 2;
 var posY = vistaY + vistaAlto / 2;
 
 if (!global.cinematica && !ejecutado) {
-    layer_sequence_create("secuencia", posX, posY, secPreTutorial);
+	cinematica = layer_sequence_create("secuencia", posX, posY, secuencia);
+	alarm[0] = layer_sequence_get_length(cinematica);
     ejecutado = true;
-    instance_destroy();
+
 }

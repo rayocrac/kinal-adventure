@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_secuencias",
+  "%Name":"obj_dialogo_colision",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_kinalero","path":"objects/obj_kinalero/obj_kinalero.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_secuencias",
+  "name":"obj_dialogo_colision",
   "overriddenProperties":[],
   "parent":{
-    "name":"SistemaGeneral",
-    "path":"folders/Objetos/controladores/SistemaGeneral.yy",
+    "name":"Dialogos",
+    "path":"folders/Objetos/controladores/SistemaJuego/Personajes/Dialogos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprSecuencialAzul",
+    "path":"sprites/sprSecuencialAzul/sprSecuencialAzul.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

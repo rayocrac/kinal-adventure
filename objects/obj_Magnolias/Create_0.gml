@@ -1,11 +1,13 @@
 
+layer_force_draw_depth(true, -1000)
+
 // --- Variables de dialogo para este NPC ---
 // Frases del NPC, cada string es una pagina de dialogo
 dialogos = [
     "¡Hola! Este es el primer dialogo del NPC.",
     "Este es el segundo dialogo. ¿Como estas?",
     "¡Ultimo dialogo! Nos vemos."
-];
+]
 
 // Indice del dialogo actual. Normalmente inicia en 0
 dialogoActual = 0;
