@@ -1,6 +1,6 @@
 
 abrirAlColisionar = true;
-dialogos = "ola"
+dialogos = "text"
 
 
 // Indice del dialogo actual. Normalmente inicia en 0
