@@ -1,4 +1,5 @@
 // Opciones del menú
+global.jugadorNombre = "kinalero"
 opciones_menu = ["Jugar", "Opciones", "Extras", "Salir"];
 opcion_seleccionada = 0;
 

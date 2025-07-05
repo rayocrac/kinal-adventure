@@ -1,3 +1,4 @@
+
 // Control del menú
 if (keyboard_check_pressed(vk_down)) {
     opcion_seleccionada = (opcion_seleccionada + 1) mod array_length(opciones_menu);
