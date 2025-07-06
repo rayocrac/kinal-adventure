@@ -1,4 +1,4 @@
-
+condicionCumplida = false
 
 
 dialogos = [

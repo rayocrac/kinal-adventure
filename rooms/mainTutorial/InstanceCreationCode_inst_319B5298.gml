@@ -1,17 +1,22 @@
-retardoDialogo = 10;
+retardoDialogo = 0;
 abrirAlColisionar = true;
 
-dialogos ="[wave]!BIEN HECHO¡ Ahora, te enseñare...[/wave][[/page]" +
-"[pulse]Ah, el noble arte del dash... ^_^ [/pulse] [wobble]o como yo le digo: 'huir con estilo'.[/wobble][/page]" +
-"[wave]Haz [c_yellow][sprMouse, 2][/color] y avanzaras rapido hacia donde te estes moviendo.[/wave][/page]" +
+dialogos ="[wave]!BIEN HECHO¡ Ahora, te enseñare...[/wave][/page]" +
+"[pulse]El noble arte del [c_orange]dash.[/color][/pulse] [wobble]el huir con estilo.[/wobble][/page]" +
+"[wave]moviendote,Haz [c_yellow][sprMouse,2][/color] y avanzaras del tiron.[/wave][/page]" +
 "[jitter]Ideal para esquivar responsabilidades, digo, enemigos.[/jitter][/page]" +
-"[c_red][shake]Pero calma, Kinalerito. No puedes abusar.[/shake][/color][/page]" +
-"[pulse]El dash te hace invencible... pero tiene un [c_orange]cooldown de 5 segundos[/color].[/pulse][/page]" +
-"[c_green]Esa barra verde[/color] te indica cuando puedes hacer dash de nuevo.[/page]" +
+"[c_red][shake]Pero calma, Kinalerito.  No puedes abusar.[/shake][/color][/page]" +
+"[pulse]Dashear te hace invencible pero [c_orange]tiene que recargarse[/color].[/pulse][/page]" +
+"[c_orange]Esa barra naranja[/color] te indica cuando puedes hacer dash de nuevo.[/page]" +
+"Tambien el mouse a su lado izquierdo. [/page]si cambia de color a [c_red]rojo[/color], puedes usarlo.[/page]" +
 "[wave]Ya te crees un ninja? Espera, falta mas...[/wave][/page]" +
-"[pulse]Tu [c_aqua]habilidad especial[/color] se activa con [c_yellow][sprFuncionales, 1][/color].[/pulse][/page]" +
-"[wobble]Cada material tiene su propio poder especial.[/wobble] [c_aqua]vez la barra azul?[/color][/page]" +
-"[jitter]esta vacia, significa que aun no la haz cargado[/jitter][/page] primero, ten este lapiz";
+"[pulse]Tu [c_aqua]habilidad especial[/color] se activa con [c_aqua][sprFuncionales,1][/color].[/pulse][/page]" +
+"[wobble]Cada material tiene su propio poder especial.[/wobble][/page] [c_aqua]¿Ves la barra azul?[/color][/page]" +
+"[jitter]Si esta vacia, significa que aun no ha cargado.[/jitter][/page]" +
+"Primero, toma ese lapiz y aprende a usarlo, te servira mucho.[/page]" +
+"Ahh, que no sabes recogerlo? Pues mira, te explico[/page]ponte encima de el y presiona [c_green][sprLetras,4][/color] asi lo recogeras.[/page]" +
+"Tomalo y sigue la ruta de conos de entrenamiento.";
+
 
 
 // Indice del dialogo actual. Normalmente inicia en 0
@@ -39,7 +44,7 @@ colorTextoNPC = c_white;
 colorCaja = c_white;
 
 //tamaño de la caja de dialogo, el promedio es 60 ggs
-tamanoCaja = 60
+tamanoCaja = 70
 // Desplazamiento vertical negativo de la caja (hacia arriba, normalmente 0)
 yNegativa = 0;
 

@@ -4,7 +4,7 @@ var velocidadBala = datos[1];
 var posOrigenBalaX = datos[2];
 var posOrigenBalaY = datos[3];
 
-if (keyboard_check_pressed(ord("Q")) && global.aimbotListo) {
+if (keyboard_check_pressed(vk_shift) && global.aimbotListo) {
 	global.kills = 0;
     global.aimbotActivo= true;
     global.aimbotListo = false;
@@ -29,24 +29,24 @@ if (global.aimbotActivo) {
 
 scrActualizacionArma()
 
-if(velocidadKinalero == 0){
-accion = "Quieto";
-fotograma = "Abajo";
-} else{
-switch (accion) {
-    case "Quieto":
-    case "Caminar":
-        scrKinaleroMovimiento(velocidadKinalero);
-        scrKinaleroDash();
-        break;
+if (velocidadKinalero == 0) {
+    accion = "Quieto";
+    fotograma = "Abajo";
+} else {
+    switch (accion) {
+        case "Quieto":
+        case "Caminar":
+            scrKinaleroMovimiento(velocidadKinalero);
+            scrKinaleroDash(); // solo se llama si está en modo normal
+            break;
 
-    case "Dash":
-        scrPersonajeMovimientoA(velocidadDash, direccionDash);
-        scrKinaleroViendoA(direccionDash);
-        tiempoDash -= 1;
-        if (tiempoDash <= 0) {
-            accion = "Quieto"; // o "Caminar"
-        }
-        break;
-	}
+        case "Dash":
+            scrPersonajeMovimientoA(velocidadDash, direccionDash);
+            scrKinaleroViendoA(direccionDash);
+            esperaDash -= 1;
+            if (esperaDash <= 0) {
+                accion = "Quieto";
+            }
+            break;
+    }
 }
