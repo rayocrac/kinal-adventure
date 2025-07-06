@@ -12,4 +12,6 @@ if (alarm[1] <= 0) {
     empujeY = lengthdir_y(fuerza, dir);
 
     alarm[1] = 20;
+	
+
 }
