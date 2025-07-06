@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Armas",
-    "path":"folders/Sprites/Kinalero/Armas.yy",
+    "path":"folders/Sprites/Armas.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,2 +1,0 @@
-if(colisiono){
-recibido = true;}

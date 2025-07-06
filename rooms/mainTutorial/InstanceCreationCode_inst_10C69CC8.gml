@@ -4,9 +4,7 @@ global.cinematicaDialogo = self;
 textoCompleto = false
 
 
-textoTotal = "[wobble][c_yellow]¡oye! me oyes? presiona [sprFuncionales,0] para seguir.[/wobble][/page]"+ 
-"[wobble][c_yellow] presiona [sprFuncionales,0] para ver todo el texto de una vez.[/wobble][/page]" + 
-"ok, comenzemos, eres un  kinalero, [speed, 0.18]y...[/page]"+
+textoTotal = "[speed,0.15][wobble]¿?  zzz... zzz... zzz...[/wobble][/speed] ¡Otra vez aqui?[/page]" +
 "[pulse]El pasto te volvio a ganar la batalla...[/pulse][/page]" +
 "[speed,0.18][wave]Te quedaste dormido en el campo de Kinal.[/wave][/speed][/page]" +
 "[jitter]Lo peor es que parece que estas soñando...[/jitter][/page]" +
@@ -26,8 +24,7 @@ textoTotal = "[wobble][c_yellow]¡oye! me oyes? presiona [sprFuncionales,0] para
 "[pulse][c_green]¿verdad?[/color][/pulse]         [wobble]Lastima.[/wobble][/page]" +
 "[wave]Arriba, kinalerito. es el momento[/wave][/page]" +
 "[rainbow][jitter]Este es el inicio de tu camino.[/jitter][/rainbow][/page]" +
-"[pulse]Empezar es de muchos, terminar [speed,0.05]de pocos.[/speed][/pulse][/page]" + "una ultima cosita...[/page]"+
-"[wobble]oh, presiona [sprLetras,23] para omitir dialogos jiji.[/wobble][/page]";
+"[pulse]Empezar es de muchos, terminar [speed,0.05]de pocos.[/speed][/pulse]";
 textoActual = "";
 paginas = string_split(textoTotal, "[/page]");
 

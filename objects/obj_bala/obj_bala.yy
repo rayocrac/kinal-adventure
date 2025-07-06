@@ -12,8 +12,8 @@
   "name":"obj_bala",
   "overriddenProperties":[],
   "parent":{
-    "name":"proyectiles",
-    "path":"folders/Objetos/controladores/SistemaJuego/Kinalero/proyectiles.yy",
+    "name":"Armas",
+    "path":"folders/Objetos/controladores/SistemaJuego/Kinalero/Armas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

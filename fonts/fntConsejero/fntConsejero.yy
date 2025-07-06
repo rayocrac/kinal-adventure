@@ -216,7 +216,10 @@
   "sdfSpread":4,
   "size":12.0,
   "styleName":"Black",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":null,
   "usesSDF":false,
 }
