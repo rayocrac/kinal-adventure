@@ -1,4 +1,4 @@
-condicionCumplida = false
+
 
 
 dialogos = [
@@ -46,7 +46,7 @@ yNegativa = 0;
 yPositiva = 0;
 
 // Sprite del NPC hablando
-sprNPC = sprIdleBarrascout;
+sprNPC = sprIdleMangolias;
 
 // Fuente para el texto del NPC
 strngFuenteNPC = "fntMinecraft";

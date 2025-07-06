@@ -1,6 +1,4 @@
-if (!cerrado && instance_exists(obj_kinalero)) {
-    obj_kinalero.velocidadKinalero = 0;
-}
+
 
 if (!cerrado && keyboard_check_pressed(vk_enter)) {
     
@@ -24,17 +22,8 @@ if (!cerrado && keyboard_check_pressed(vk_enter)) {
         cerrado = true;
     }
 }
-if(!cerrado && keyboard_check(ord("X"))){ 
-	cerrado = true
-	global.cinematica = false;
-	global.pausa = false
-	}
 
 if(cerrado){
-	if (instance_exists(obj_kinalero)) {
-    obj_kinalero.velocidadKinalero = 2;
-}
-
-	global.cinematicaDialogo = noone;
 	instance_destroy();
+	
 }
