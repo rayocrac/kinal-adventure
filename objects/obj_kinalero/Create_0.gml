@@ -1,4 +1,8 @@
 velocidadKinalero = 2;
+global.kills = 0;              
+global.aimbotListo= false; 
+global.aimbotActivo = false;    
+global.aimbotTemporizaodr = 0;    
 
 
 accion = "Quieto";
