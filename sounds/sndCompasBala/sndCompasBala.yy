@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sndCompasBala",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.1245805,
+  "name":"sndCompasBala",
+  "parent":{
+    "name":"armas",
+    "path":"folders/Sonidos/armas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndCompasBala.wav",
+  "type":0,
+  "volume":1.0,
+}
