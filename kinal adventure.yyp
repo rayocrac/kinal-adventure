@@ -273,6 +273,8 @@
     {"id":{"name":"sndMenuMove","path":"sounds/sndMenuMove/sndMenuMove.yy",},},
     {"id":{"name":"sndMusicaMenu","path":"sounds/sndMusicaMenu/sndMusicaMenu.yy",},},
     {"id":{"name":"scribble_fallback_bulletpoint","path":"sprites/scribble_fallback_bulletpoint/scribble_fallback_bulletpoint.yy",},},
+    {"id":{"name":"sprBarraAimbot","path":"sprites/sprBarraAimbot/sprBarraAimbot.yy",},},
+    {"id":{"name":"sprBarraDash","path":"sprites/sprBarraDash/sprBarraDash.yy",},},
     {"id":{"name":"sprBlanco","path":"sprites/sprBlanco/sprBlanco.yy",},},
     {"id":{"name":"sprCajaDialogo","path":"sprites/sprCajaDialogo/sprCajaDialogo.yy",},},
     {"id":{"name":"sprCamara","path":"sprites/sprCamara/sprCamara.yy",},},

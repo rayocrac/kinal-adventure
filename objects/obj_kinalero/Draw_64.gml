@@ -10,4 +10,4 @@ draw_sprite_ext(sprVida, vidaActual, posicionXVida, posicionYVida, 2, 2, 0, c_wh
 var posicionXBarraAimbot = 50;
 var posicionYBarraAimbot = 25;
 
-draw_sprite_ext(sprBarrraAimbot, global.kills, posicionXBarraAimbot, posicionYBarraAimbot, 1, 1, 0, c_white, 1);
+draw_sprite_ext(sprBarraAimbot, global.kills, posicionXBarraAimbot, posicionYBarraAimbot, 1, 1, 0, c_white, 1);
