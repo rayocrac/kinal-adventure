@@ -1,4 +1,3 @@
-
 // Título del juego
 var titulo_x = room_width/2;
 var titulo_y = room_height/4;

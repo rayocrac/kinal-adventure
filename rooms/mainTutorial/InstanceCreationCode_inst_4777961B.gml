@@ -1,16 +1,16 @@
-
-
-
+retardoDialogo = 60;
 abrirAlColisionar = true;
-dialogos = "[speed,0.05][wave]BIENVENIDO, "+ global.jugadorNombre +" promedio.[/wave][/speed][/page]" +
-"[jitter]Has despertado del letargo estudiantil.[/jitter][/page]" +
-"[pulse]Yo soy la [c_blue]IA Kinalera[color],[/pulse] tu asistente digital.[/page]" +
-"[shake]Aunque preferiria estar corriendo DOOM.[/shake][/page]" +
-"[wave]Te dare instrucciones simples... espero que sepas leer.[/wave][/page]" +
-"[speed,0.18][pulse]Usa [c_yellow]Z[/color] para avanzar el texto.[/pulse][/speed][/page]" +
-"[pulse]Presiona [c_yellow]X[color] si quieres saltarte cosas (no recomendado).[/pulse][/page]" +
-"[wobble]Y no, no puedes silenciarme.[/wobble] Lo intente yo tambien.[/page]" +
-"[pulse]Ahora dime... ¿[jitter]como te llamas[/jitter]?[/pulse]";
+
+dialogos ="[wave]por fin despiertas kinalerito.[/wave][pulse][/pulse][/page]soy tu ia de confianza,   te mostrare como andar   por aqui [/page]" +
+"[shake]Mueve tu cuerpo con estas teclas sagradas:[/shake][/page]" +
+"[c_yellow]*[sprLetras,0] = Izquierda.\n*[sprLetras,22] = Arriba\n" +
+"[c_yellow]*[sprLetras,3] = Derecha\n*[sprLetras,18] = Abajo[/page]" +
+"[pulse][c_yellow]¿Quieres sentirte mas\nlibre que estudiante \nsin deberes?[/pulse][/page]" +
+"[wave][c_yellow]Combina teclas diagonales, como[sprLetras,22] + [sprLetras,0],[/wave] y veras como te mueves gradualmente...[/page][/color]" +
+"[jitter]...cual hoja por el vien-to de la responsabilidad.[/jitter][/page]" +
+"[c_red][shake]Pero JAMAS, JAMAS podras ir a la izquierda y derecha al mismo tiempo.[/shake][color][/page]" +
+"[pulse]Esto no es fisica cuantica, es logica vectorial.[/pulse][/page]" +
+"[wobble](Y eso lo veras cuando   tomes clase de Vectores. Si es que vas, claro.)[/wobble]";
 
 
 // Indice del dialogo actual. Normalmente inicia en 0
@@ -38,7 +38,7 @@ colorTextoNPC = c_white;
 colorCaja = c_white;
 
 //tamaño de la caja de dialogo, el promedio es 60 ggs
-tamanoCaja = 60
+tamanoCaja = 90
 // Desplazamiento vertical negativo de la caja (hacia arriba, normalmente 0)
 yNegativa = 0;
 
@@ -49,7 +49,7 @@ yPositiva = 0;
 sprNPC = sprConsejeroHablando;
 
 // Fuente para el texto del NPC
-strngFuenteNPC = "fntMinecraft";
+strngFuenteNPC = "fntConsejero";
 
 // ¿El NPC comienza hablando (animado)? (true/false)
 boolInicioHabla = true;
