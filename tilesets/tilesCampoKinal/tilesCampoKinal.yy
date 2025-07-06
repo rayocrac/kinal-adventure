@@ -20,8 +20,8 @@
   "out_tilehborder":0,
   "out_tilevborder":0,
   "parent":{
-    "name":"tutorial",
-    "path":"folders/Salas/Niveles/tutorial.yy",
+    "name":"dePrueba",
+    "path":"folders/Salas/dePrueba.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
