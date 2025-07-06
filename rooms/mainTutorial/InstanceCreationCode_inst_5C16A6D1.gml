@@ -1,0 +1,81 @@
+retardoDialogo = 0;
+abrirAlColisionar = true;
+
+dialogos ="[wave]Ah, casi lo olvido, que cabeza la mia...[/wave][/page]" +
+"[pulse]Para darle a las tareas, solo da [sprMouse,1]. Facil, no?[/pulse][/page]" +
+"[wobble]Prueba con esos blancos de tiro que dejo el profe ahi.[/wobble][/page]" +
+"[shake]tal vez asi mejores tu capacidad de analisis vectorial jaja[/shake][/page]" +
+"[wave]Y ahora que hablamos de cosas importantes...[/wave][/page]" +
+"[pulse]¿Ves ese [c_red]corazoncito[/color] en la esquina superior izquierda?[/pulse][/page]" +
+"[wobble]NO, No es por estetica kawaii ni mucho menos.[/wobble][/page]" +
+"[jitter]Ese es tu [c_red]medidor de estres™[/color].[/jitter][/page]" +
+"[pulse]Define como te sientes y cuanta [c_red]vida[/color] te queda antes del colapso academico™.[/pulse][/page]" +
+"[wave]Recuerda:[/wave][/page]" +
+"[c_green]* Bajo = Zen.[/color][/page]" +
+"[c_orange]* Medio = Ayuda.[/color][/page]" +
+"[c_red]* Alto = Mandame un psicologo, por favor.[/color][/page] vamos, prueba tu nuevo lapiz";
+
+
+
+
+// Indice del dialogo actual. Normalmente inicia en 0
+dialogoActual = 0;
+
+// ¿Repetir todos los dialogos en bucle? (true/false)
+repetirTodo = false;
+
+// ¿Repetir un solo dialogo especifico al terminar? (true/false)
+repetirTexto = false;
+
+// Indice del texto a repetir si repetirTexto es true
+indiceTextoRepetir = 0;
+
+// Controla si el NPC ya hablo, evita repetir mientras esta abierta la caja
+yaHablo = false;
+
+// Distancia maxima para activar el dialogo (en pixeles)
+distancia_activar = 10;
+
+// Color del texto del NPC (ej: c_white)
+colorTextoNPC = c_white;
+
+// Color de la caja de dialogo (ej: c_black, c_white)
+colorCaja = c_white;
+
+//tamaño de la caja de dialogo, el promedio es 60 ggs
+tamanoCaja = 70
+// Desplazamiento vertical negativo de la caja (hacia arriba, normalmente 0)
+yNegativa = 0;
+
+// Desplazamiento vertical positivo de la caja (hacia abajo, normalmente 0)
+yPositiva = 0;
+
+// Sprite del NPC hablando
+sprNPC = sprConsejeroHablando;
+
+// Fuente para el texto del NPC
+strngFuenteNPC = "fntConsejero";
+
+// ¿El NPC comienza hablando (animado)? (true/false)
+boolInicioHabla = true;
+
+// Velocidad de animacion del sprite hablando (frames por letra)
+velAnimado = 3;
+
+// Array de sonidos para el efecto typist
+arraySonidos = [ sndConsejeroHablaUno ];
+
+// Velocidad del efecto typist (menor = mas rapido)
+velTypist = global.velTypist;
+
+// Opacidad del typist (0 a 1)
+opcdTypist = 1;
+
+// Pitch minimo para el sonido typist (ej: 0.9)
+pitchMinimo = 1;
+
+// Pitch maximo para el sonido typist (ej: 1.1)
+pitchMaximo = 3;
+
+// Caracteres a los que NO se les pone sonido (espacios, comas, etc)
+textoOmitirSonido = " ,-+";

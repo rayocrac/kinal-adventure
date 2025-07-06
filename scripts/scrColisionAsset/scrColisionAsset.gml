@@ -11,7 +11,7 @@ function scrColisionAsset(spd, dir) {
 
     // Usamos "instance_place" para verificar si alguna instancia está en esa posición
     // Verificamos todas las instancias de la capa
-    var npc = instance_place(xTo, yTo, obj_Npc);  // obj_Npc es el objeto que está en la capa npcColisiones
+    var npc = instance_place(xTo, yTo, obj_dialogo_acting);  // obj_Npc es el objeto que está en la capa npcColisiones
 
     // Si una instancia de obj_Npc está en la posición (xTo, yTo), se detecta la colisión
     if (npc != noone) {
