@@ -1,7 +1,10 @@
-
+retardoDialogo = 10;
 abrirAlColisionar = true;
-dialogos = "ola"
+colisiono = false;
+recibido = false;
 
+
+dialogos = "ola"
 
 // Indice del dialogo actual. Normalmente inicia en 0
 dialogoActual = 0;

@@ -1,4 +1,8 @@
+if(!recibido){
+	alarm[0] = retardoDialogo;
+	colisiono = true}
 
+if(alarm[0] == 0){
 var resultado = scrCrearDialogoNPC(true,obj_dialogo,
     dialogos,
     dialogoActual,
@@ -28,3 +32,4 @@ var resultado = scrCrearDialogoNPC(true,obj_dialogo,
 
 dialogoActual = resultado.dialogo_actual;
 yaHablo = resultado.yaHablo;
+}
