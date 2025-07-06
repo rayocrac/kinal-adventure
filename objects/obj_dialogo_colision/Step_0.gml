@@ -1,0 +1,2 @@
+if(colisiono){
+recibido = true;}

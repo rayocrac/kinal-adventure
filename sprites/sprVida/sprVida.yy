@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Kinalero",
-    "path":"folders/Sprites/Kinalero.yy",
+    "name":"Gui",
+    "path":"folders/Sprites/Kinalero/Gui.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
