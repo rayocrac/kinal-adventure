@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"utiles",
-    "path":"folders/Objetos/controladores/SistemaJuego/enemigos/utiles.yy",
+    "path":"folders/Objetos/controladores/SistemaJuego/utiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
